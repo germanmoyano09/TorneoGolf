@@ -28,25 +28,25 @@ header { margin:34px 0 0 0; padding:0; min-height:150px; }
 backface-visibility: hidden;
 }
 
-/*DAYS WRAPPER start Here*/
-.days-wrap div.inn { background-color:#2dcb73 !important; font-family: 'bebasregular';}
-.countdown .days .flip-clock-label { top:183px; left:93px; color:#fff; text-transform:uppercase; font-size:26px; font-weight:normal; font-family:Arial, Helvetica, sans-serif; }
-/*DAYS WRAPPER end Here*/
+/*dias WRAPPER start Here*/
+.dias-wrap div.inn { background-color:#2dcb73 !important; font-family: 'bebasregular';}
+.countdown .dias .flip-clock-label { top:183px; left:93px; color:#fff; text-transform:uppercase; font-size:26px; font-weight:normal; font-family:Arial, Helvetica, sans-serif; }
+/*dias WRAPPER end Here*/
 
-/*HOURS WRAPPER start Here*/
-.hours-wrap div.inn { background-color:#3498db !important; font-family: 'bebasregular';}
-.countdown .hours .flip-clock-label { top:183px; left:46px; color:#fff; text-transform:uppercase; font-size:26px; font-weight:normal; font-family:Arial, Helvetica, sans-serif;}
-/*HOURS WRAPPER end Here*/
+/*horas WRAPPER start Here*/
+.horas-wrap div.inn { background-color:#3498db !important; font-family: 'bebasregular';}
+.countdown .horas .flip-clock-label { top:183px; left:46px; color:#fff; text-transform:uppercase; font-size:26px; font-weight:normal; font-family:Arial, Helvetica, sans-serif;}
+/*horas WRAPPER end Here*/
 
-/*MINUTES WRAPPER start Here*/
+/*minutos WRAPPER start Here*/
 .mins-wrap div.inn { background-color:#9b59b6 !important; font-family: 'bebasregular';}
-.countdown .minutes .flip-clock-label { top:183px; left:33px; color:#fff; text-transform:uppercase; font-size:26px; font-weight:normal; font-family:Arial, Helvetica, sans-serif;}
-/*MINUTES WRAPPER end Here*/
+.countdown .minutos .flip-clock-label { top:183px; left:33px; color:#fff; text-transform:uppercase; font-size:26px; font-weight:normal; font-family:Arial, Helvetica, sans-serif;}
+/*minutos WRAPPER end Here*/
 
-/*SECONDS WRAPPER start Here*/
-.seconds-wrap div.inn { background-color:#f39c12 !important; font-family: 'bebasregular';}
-.countdown .seconds .flip-clock-label { top:183px; left:29px; color:#fff; text-transform:uppercase; font-size:26px; font-weight:normal; font-family:Arial, Helvetica, sans-serif;}
-/*SECONDS WRAPPER end Here*/
+/*segundos WRAPPER start Here*/
+.segundos-wrap div.inn { background-color:#f39c12 !important; font-family: 'bebasregular';}
+.countdown .segundos .flip-clock-label { top:183px; left:29px; color:#fff; text-transform:uppercase; font-size:26px; font-weight:normal; font-family:Arial, Helvetica, sans-serif;}
+/*segundos WRAPPER end Here*/
 
 /*COUNTDOWN end Here*/
 

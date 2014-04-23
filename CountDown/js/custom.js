@@ -10,10 +10,10 @@ $(document).ready(function () {
        });
 
        $(".your-clock").append('<span class="test">');
-       $("span.days").nextUntil("span.hours").wrapAll("<div class='days-wrap'></div>");
-       $("span.hours").nextUntil("span.minutes").wrapAll("<div class='hours-wrap'></div>");
-       $("span.minutes").nextUntil("span.seconds").wrapAll("<div class='mins-wrap'></div>");
-       $("span.seconds").nextUntil("span.test").wrapAll("<div class='seconds-wrap'></div>");
+       $("span.dias").nextUntil("span.horas").wrapAll("<div class='dias-wrap'></div>");
+       $("span.horas").nextUntil("span.minutos").wrapAll("<div class='horas-wrap'></div>");
+       $("span.minutos").nextUntil("span.segundos").wrapAll("<div class='mins-wrap'></div>");
+       $("span.segundos").nextUntil("span.test").wrapAll("<div class='segundos-wrap'></div>");
        $(".test").remove();
 
     $('.theme-change li a').click(function(){
