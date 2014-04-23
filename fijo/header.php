@@ -97,9 +97,22 @@
 											<li><a href="blog_post2.html">Blog Post II</a></li>
 										</ul>
 										</li>
-										<li>
-											<a href="contact.html">Contact</a>
-										</li>
+										<?php
+											if($titulo === "contacto"){
+												echo '
+												<li class="dropdown active">
+													<a  href="contacto.php">Contacto </a>
+												</li>
+												';
+											}else{
+												echo'
+												<li>
+													<a href="contacto.php">Contacto</a>
+												</li>
+												';
+											}
+										?>
+										
 									</ul>
 								</div>
 							<!-- /menu -->
