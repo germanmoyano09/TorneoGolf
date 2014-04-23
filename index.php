@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 <meta charset="utf-8">
 <title> Torneo Petrolero Solidario</title>
@@ -30,45 +30,23 @@
 <![endif]-->
 
 <!--    COUNTDOWN -->
-<!-- CSS start Here-->
-<link rel="stylesheet" href="CountDown/css/reset.css">
-<link rel="stylesheet" href="CountDown/css/flipclock.css">
-<link rel="stylesheet" href="CountDown/css/style.css" />
-<link rel="stylesheet" href="CountDown/css/theme.css" />
-<!-- CSS end Here-->
-<!-- JS start Here-->
-<script src="CountDown/js/jquery.js"></script>
-<script src="CountDown/js/modernizr.js"></script>
-
-
+	<!-- CSS start Here-->
+	<link rel="stylesheet" href="CountDown/css/reset.css">
+	<link rel="stylesheet" href="CountDown/css/flipclock.css">
+	<link rel="stylesheet" href="CountDown/css/style.css" />
+	<link rel="stylesheet" href="CountDown/css/theme.css" />
+	<!-- CSS end Here-->
+	<!-- JS start Here-->
+	<script src="CountDown/js/jquery.js"></script>
+	<script src="CountDown/js/modernizr.js"></script>
 <!--/COUNTDOWN -->
 
 </head>
 
 <body>
 	<!--header-->
-	<div class="header">
-		<div id="slider_header">
-			<!--logo-->
-			<div class="container">
-				<div class="row">
-					<div class="span12">
-						<div class="navbar">
-							<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-							<i class="icon-align-justify icon-2x"></i></button>
-							<!--logo-->			
-							<div class="logo">
-								<!-- <a href="index.php"><img src="img/logo.jpg" alt="" class="animated bounceInDown" /></a>  -->
-							</div>
-							<!-- menu-->
-								<?php include_once("fijo/menu.php"); ?>
-							<!-- /menu -->
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>	
+		<?php $titulo = "index"; ?>
+		<?php include_once("fijo/header.php"); ?>
 	<!--//header-->
 	
 	<!-- slider -->
