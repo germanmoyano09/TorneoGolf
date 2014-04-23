@@ -58,7 +58,7 @@
 							<i class="icon-align-justify icon-2x"></i></button>
 							<!--logo-->			
 							<div class="logo">
-								 <a href="index.php"><img src="img/logo.png" alt="" class="animated bounceInDown" /></a>  
+								<!-- <a href="index.php"><img src="img/logo.jpg" alt="" class="animated bounceInDown" /></a>  -->
 							</div>
 							<!-- menu-->
 								<?php include_once("fijo/menu.php"); ?>
@@ -73,9 +73,9 @@
 	
 	<!-- slider -->
 	<div class="myslider">
-		<img src="img/large/big_slider1.jpg" alt="" >
-		<img src="img/large/big_slider2.jpg" alt="">
-		<img src="img/large/big_slider3.jpg" alt="">
+		<img src="img/slider/slider1.jpg" alt="" >
+		<img src="img/slider/slider2.jpg" alt="">
+		<img src="img/slider/slider3.jpg" alt="">
 	</div>
 	<!-- /slider -->
 	
