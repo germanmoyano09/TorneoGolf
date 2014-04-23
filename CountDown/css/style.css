@@ -1,0 +1,90 @@
+body {font-family:Arial, Helvetica, sans-serif;}
+@font-face {
+    font-family: 'bebasregular';
+    src: url('../fonts/bebas-webfont.eot');
+    src: url('../fonts/bebas-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebas-webfont.woff') format('woff'),
+         url('../fonts/bebas-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.mainWrapper { width:862px; margin:0 auto; padding:0; position:relative }
+.contentWrapper { margin:0 0 60px 0; padding:32px 0 0 0; text-align:center; }
+.contentWrapper h2 { font-size:28px; line-height:30px; font-weight:bold; color:#fff; margin:0 0 13px 0; padding:0; text-transform:uppercase; }
+.contentWrapper p { font-size:19px; line-height:22px; font-weight:normal; color:#5e656d;}
+
+/*HEADER start Here*/
+header { margin:34px 0 0 0; padding:0; min-height:150px; }
+#logo { display: block; width:94px; height:94x; background:url(../img/logo.png) no-repeat left top; margin:0 auto;}
+#logo a { display: block; width:94px; height:94px; text-indent:-99999px; }
+/*HEADER end Here*/
+
+/*COUNTDOWN start Here*/
+.countdown-wrapper { margin:0 0 130px 0; padding:0 0 0 20px; }
+.countdown {-webkit-backface-visibility: hidden;
+-moz-backface-visibility: hidden;
+-ms-backface-visibility: hidden;
+backface-visibility: hidden;
+}
+
+/*DAYS WRAPPER start Here*/
+.days-wrap div.inn { background-color:#2dcb73 !important; font-family: 'bebasregular';}
+.countdown .days .flip-clock-label { top:183px; left:93px; color:#fff; text-transform:uppercase; font-size:26px; font-weight:normal; font-family:Arial, Helvetica, sans-serif; }
+/*DAYS WRAPPER end Here*/
+
+/*HOURS WRAPPER start Here*/
+.hours-wrap div.inn { background-color:#3498db !important; font-family: 'bebasregular';}
+.countdown .hours .flip-clock-label { top:183px; left:46px; color:#fff; text-transform:uppercase; font-size:26px; font-weight:normal; font-family:Arial, Helvetica, sans-serif;}
+/*HOURS WRAPPER end Here*/
+
+/*MINUTES WRAPPER start Here*/
+.mins-wrap div.inn { background-color:#9b59b6 !important; font-family: 'bebasregular';}
+.countdown .minutes .flip-clock-label { top:183px; left:33px; color:#fff; text-transform:uppercase; font-size:26px; font-weight:normal; font-family:Arial, Helvetica, sans-serif;}
+/*MINUTES WRAPPER end Here*/
+
+/*SECONDS WRAPPER start Here*/
+.seconds-wrap div.inn { background-color:#f39c12 !important; font-family: 'bebasregular';}
+.countdown .seconds .flip-clock-label { top:183px; left:29px; color:#fff; text-transform:uppercase; font-size:26px; font-weight:normal; font-family:Arial, Helvetica, sans-serif;}
+/*SECONDS WRAPPER end Here*/
+
+/*COUNTDOWN end Here*/
+
+/*NEWSLETTER WRAPPER start Here*/
+.newsletter-wrapper{width:62%; margin:0 auto 70px auto; background:url(../img/bg-input.png) repeat left top; border-radius:2px; height:63px; line-height:63px; padding-left:20px;}
+.newsletter-wrapper .input { background-color:transparent; font-size:20px; width:80%; border:0; float:left; margin-top:17px; color:#555b61;}
+.newsletter-wrapper .btn { background:url(../img/bg-btn.png) left top no-repeat; width:64px; height:63px; border:0; text-indent:-9999px; float:right;}
+.error { color:#f39c12; width:534px; height:24px; line-height:24px; display:none; float:left }
+/*NEWSLETTER WRAPPER end Here*/
+
+/*FOOTER WRAPPER start Here*/
+footer { width:534px; margin:0 auto; padding:0 0 40px 0 }
+footer p { font-size:15px; line-height:16px; color:#5e656d; text-align:center;}
+
+/*SOCIAL WRAPPER start Here*/
+.social { margin:0 auto 26px auto; padding:0; width:300px; text-align:center }
+.social li { margin:0; padding:0 2px; display:inline; }
+.social li a { margin:0; padding:0 4px; width:33px; height:33px; display:inline-block; }
+.social li a.fb { background:url(../img/ico-fb.png) no-repeat left top; }
+.social li a.fb:hover { background:url(../img/ico-fb-hvr.png) no-repeat left top; }
+.social li a.dribbble { background:url(../img/ico-dribbble.png) no-repeat left top; }
+.social li a.dribbble:hover { background:url(../img/ico-dribbble-hvr.png) no-repeat left top; }
+.social li a.twitter { background:url(../img/ico-twitter.png) no-repeat left top; }
+.social li a.twitter:hover { background:url(../img/ico-twitter-hvr.png) no-repeat left top; }
+.social li a.gplus { background:url(../img/ico-gplus.png) no-repeat left top; }
+.social li a.gplus:hover { background:url(../img/ico-gplus-hvr.png) no-repeat left top; }
+/*SOCIAL WRAPPER end Here*/
+
+/*FOOTER WRAPPER end Here*/
+
+/*Template start Options*/
+.option { margin:80px 0 0 0;}
+.option a { font-size:22px; font-weight:bold; text-decoration:none; color:#fff;}
+.option a img { border:none; margin:0 0 20px 0;}
+.option a span {display:block;}
+.optionFirst { width: 420px; text-align:center; border-right:1px solid #5e656d; padding:40px 0;}
+.optionSecond { width: 420px; text-align:center; padding:40px 0;}
+/*Template end Options*/
+/* Preloader */
+#preloader { position: fixed; top:0; left:0; right:0; bottom:0; background-color:#363f48; /* change if the mask should have another color then white */ z-index:99; /* makes sure it stays on top */ }
+#status { width:200px; height:200px; position:absolute; left:50%; /* centers the loading animation horizontally one the screen */ top:50%; /* centers the loading animation vertically one the screen */ background-image:url(../img/status.gif); /* path to your loading animation */ background-repeat:no-repeat; background-position:center; margin:-100px 0 0 -100px; /* is width and height divided by two */ }

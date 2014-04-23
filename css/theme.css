@@ -324,7 +324,11 @@ h1.intro {  color:#89949b; line-height:40px; font-weight:300; margin-bottom:60px
 	color:#eee;
 	text-align:center;
 }
-#banner { width:100%; background:#16a085; text-align:center; }
+#banner { width:100%; background:#16a085; text-align:center; padding-bottom:10px; }
+
+.mainWrapper{
+	
+}
 
 /* Index Boxes */
 .tile {

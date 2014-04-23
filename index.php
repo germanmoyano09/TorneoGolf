@@ -28,6 +28,21 @@
 <!--[if IE 7]>
 <link rel="stylesheet" href="css/font-awesome-ie7.min.css">
 <![endif]-->
+
+<!--    COUNTDOWN -->
+<!-- CSS start Here-->
+<link rel="stylesheet" href="CountDown/css/reset.css">
+<link rel="stylesheet" href="CountDown/css/flipclock.css">
+<link rel="stylesheet" href="CountDown/css/style.css" />
+<link rel="stylesheet" href="CountDown/css/theme.css" />
+<!-- CSS end Here-->
+<!-- JS start Here-->
+<script src="CountDown/js/jquery.js"></script>
+<script src="CountDown/js/modernizr.js"></script>
+
+
+<!--/COUNTDOWN -->
+
 </head>
 
 <body>
@@ -67,12 +82,22 @@
 	<!-- banner -->	
 	<div id="banner">
 		<div class="welcome_index">
-			I think most <a href="#"><span class="hue_block white normal">programmers</span></a> spend the first 5 years of their career mastering 
-			<span class="hue">complexity</span>	and the rest of their lives learning <span>simplicity</span> - Buzz Andersen
+			I think most  spend the first 5 years of their career mastering and the rest of their lives learning  - Buzz Andersen
 		</div>
+		<!-- Countdown-->
+		<div class="mainWrapper">
+			<!-- Countdown Wrapper start Here-->
+			<section class="countdown-wrapper cf">
+				<div class="countdown cf"></div>
+			</section>
+			<!-- Countdown Wrapper end Here-->	
+		</div>
+		<!-- /Countdown-->
 	</div>
 	<!--//banner-->
-								
+		
+		
+		
 	<div class="container">
 		<div class="inner_content">
 			<div class="pad30"></div>
@@ -217,6 +242,13 @@
 	//]]>
 	</script>
 	
+	<!--    COUNTDOWN -->
+<!-- JS start Here-->
+<script src="CountDown/js/flipclock/libs/prefixfree.min.js"></script>
+<script src="CountDown/js/flipclock/flipclock.min.js"></script>
+​<script src="CountDown/js/custom.js"></script>
+<!-- JS end Here
+<!--    /COUNTDOWN -->
 	
 	</body>
 </html>
