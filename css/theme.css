@@ -33,6 +33,14 @@ body {
 	overflow-x:hidden;
 }
 
+#index{
+	background-color: #3F4850;	
+}
+
+#footer_index{
+	margin-bottom: -10px;
+}
+
 /**** PAGE CONTAINERS ****/
 .header { 
 	padding:0 0;

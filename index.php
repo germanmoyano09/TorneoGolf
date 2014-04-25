@@ -43,7 +43,7 @@
 
 </head>
 
-<body>
+<body id="index">
 	<!--header-->
 		<?php $titulo = "index"; ?>
 		<?php include_once("fijo/header.php"); ?>
@@ -76,7 +76,9 @@
 	<!--//banner-->
 		
 	<!-- footer -->
+	<div id="footer_index">
 		<?php include_once("fijo/footer.php"); ?>
+	</div>	
 	<!-- /footer -->	
 	
 	<!-- up to top -->
