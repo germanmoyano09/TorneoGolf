@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Torneo Petrolero Solidario- 2012</title>
+<title>Torneo Petrolero Solidario - Fotos</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
@@ -37,9 +37,10 @@
 	<div class="container">
 		<div class="inner_content">
 			<h1 class="title">Torneo Petrolero Solidario 2012</h1>
+			<!--
 			<h1 class="intro">Web design is the creation of <span class="colour">digital environments</span>, that <span>facilitate</span> and encourage human activity; 
 			<span>reflect </span> or adapt to individual voices and content. - Jeffrey Zeldman</h1>
-		
+			-->
 			<div class="holder"></div>
 			<!-- YOU CAN CHANGE THE AMOUNT OF IMAGES PER PAGE AT THE FOOT OF THIS PAGE - SEE COMMENTED CODE - SET NUMBER OF IMAGES PER PAGE -->
       
