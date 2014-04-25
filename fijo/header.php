@@ -41,6 +41,24 @@
 										?>
 										<!-- /INICIO-->
 										
+										<!-- QUIENES SOMOS -->
+										<?php
+										if($titulo === "quienesSomos"){
+												echo '
+												<li class="dropdown active">
+													<a  href="quienesSomos.php">Quienes Somos </a>
+												</li>
+												';
+											}else{
+												echo'
+												<li>
+													<a href="quienesSomos.php">Quienes Somos</a>
+												</li>
+												';
+											}
+										?>
+										<!-- /QUIENES SOMOS -->
+										
 										<!-- FOTOS -->
 										<?php
 											if($titulo === "fotos"){
