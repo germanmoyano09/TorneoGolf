@@ -1,12 +1,11 @@
 <?php 
-
-include("fijo/datosaccesodb.php");
-$conexion = mysqli_connect($host, $usuario, $clave, $db);
-if (mysqli_connect_errno()) {
-	echo "Fallo al intentar conectar con la base de datos: (" . mysqli_connect_errno() . ")";
-	die();
-}
-mysqli_query($conexion, "SET NAMES 'utf8'");
+	include("fijo/datosaccesodb.php");
+	$conexion = mysqli_connect($host, $usuario, $clave, $db);
+	if (mysqli_connect_errno()) {
+		echo "Fallo al intentar conectar con la base de datos: (" . mysqli_connect_errno() . ")";
+		die();
+	}
+	mysqli_query($conexion, "SET NAMES 'utf8'");
 ?>
 	<div class="header">
 		<div id="slider_header">

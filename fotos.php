@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <?php 
-
-include("fijo/datosaccesodb.php");
-$conexion = mysqli_connect($host, $usuario, $clave, $db);
-if (mysqli_connect_errno()) {
-	echo "Fallo al intentar conectar con la base de datos: (" . mysqli_connect_errno() . ")";
-	die();
-}
-mysqli_query($conexion, "SET NAMES 'utf8'");
+	include("fijo/datosaccesodb.php");
+	$conexion = mysqli_connect($host, $usuario, $clave, $db);
+	if (mysqli_connect_errno()) {
+		echo "Fallo al intentar conectar con la base de datos: (" . mysqli_connect_errno() . ")";
+		die();
+	}
+	mysqli_query($conexion, "SET NAMES 'utf8'");
 ?>
 
 <html lang="es">
@@ -47,7 +46,23 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
 	<!--page-->
 	<div class="container">
 		<div class="inner_content">
-			<h1 class="title">Torneo Petrolero Solidario 2012</h1>
+			<?php
+				$id = $_GET['id'];
+				$sql = "SELECT * FROM album where id = $id";
+				$consulta = mysqli_query($conexion, $sql);
+				$error = "";
+				if($consulta){
+					while($album = mysqli_fetch_array($consulta)){
+						?>
+							<h1 class="title"><?php echo $album['titulo'] ?></h1>	
+						<?php
+					}
+				}else{
+					$error = "Error al consultar Base de Datos: ".mysqli_error($conexion);
+					echo $error;
+				}
+			?>
+	
 			<!--
 			<h1 class="intro">Web design is the creation of <span class="colour">digital environments</span>, that <span>facilitate</span> and encourage human activity; 
 			<span>reflect </span> or adapt to individual voices and content. - Jeffrey Zeldman</h1>
@@ -289,26 +304,24 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
 	
 	<!--//end-->
 
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/scripts.js"></script>
-<script src="js/functions.js" type="text/javascript"></script>
-<script src="js/jPages.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<script src="js/functions.js" type="text/javascript"></script>
+	<script src="js/jPages.js"></script>
 
-<!-- /* SET NUMBER OF IMAGES PER PAGE */ -->
-<script type="text/javascript">
-//<![CDATA[
-  $(function(){
-$("#itemContainer").show();
-   $("div.holder").jPages({
-        containerID  : "itemContainer",
-        perPage      : 20,
-		keyBrowse   : true
-    });
-});
-//]]>
-</script>
-	
-
+	<!-- /* SET NUMBER OF IMAGES PER PAGE */ -->
+	<script type="text/javascript">
+	//<![CDATA[
+	  $(function(){
+	$("#itemContainer").show();
+	   $("div.holder").jPages({
+			containerID  : "itemContainer",
+			perPage      : 20,
+			keyBrowse   : true
+		});
+	});
+	//]]>
+	</script>
 </body>
 </html>	
