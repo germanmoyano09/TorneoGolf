@@ -28,6 +28,31 @@
 												</li>
 												';
 											}
+											
+											if($titulo =="torneo2012"){
+												echo'
+													<li class="dropdown active">
+														<a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="1000" data-close-others="true" href="javascript:{}">
+														Fotos <span class="caret menu-caret"></span></a>
+														<ul class="dropdown-menu">
+															<li><a href="torneo2012.php">Torneo 2012</a></li>
+															<li><a href="torneo2013.php">Torneo 2013</a></li>
+														</ul>
+													</li>
+												';
+											}else{
+												echo'
+													<li class="dropdown">
+														<a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="1000" data-close-others="true" href="javascript:{}">
+														Fotos <span class="caret menu-caret"></span></a>
+														<ul class="dropdown-menu">
+															<li><a href="torneo2012.php">Torneo 2012</a></li>
+															<li><a href="torneo2013.php">Torneo 2013</a></li>
+														
+														</ul>
+													</li>
+												';
+											}
 										?>
 										
 										<li class="dropdown">
