@@ -13,4 +13,4 @@
 			</div>
 		</div>
 	</div>
-</div>©2014 DESARROLLO WEB: Germán Moyano
+</div>
