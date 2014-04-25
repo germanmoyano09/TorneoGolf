@@ -1,3 +1,13 @@
+<?php 
+
+include("fijo/datosaccesodb.php");
+$conexion = mysqli_connect($host, $usuario, $clave, $db);
+if (mysqli_connect_errno()) {
+	echo "Fallo al intentar conectar con la base de datos: (" . mysqli_connect_errno() . ")";
+	die();
+}
+mysqli_query($conexion, "SET NAMES 'utf8'");
+?>
 	<div class="header">
 		<div id="slider_header">
 			<!--logo-->
@@ -14,6 +24,7 @@
 							<!-- menu-->
 								<div class="nav-collapse collapse">
 									<ul class="nav pull-right">
+										<!-- INICIO-->
 										<?php
 											if($titulo === "index"){
 												echo '
@@ -28,33 +39,45 @@
 												</li>
 												';
 											}
-											
-											if($titulo =="torneo2012"){
-												echo'
-													<li class="dropdown active">
-														<a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="1000" data-close-others="true" href="javascript:{}">
-														Fotos <span class="caret menu-caret"></span></a>
-														<ul class="dropdown-menu">
-															<li><a href="torneo2012.php">Torneo 2012</a></li>
-															<li><a href="torneo2013.php">Torneo 2013</a></li>
-														</ul>
-													</li>
-												';
-											}else{
-												echo'
-													<li class="dropdown">
-														<a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="1000" data-close-others="true" href="javascript:{}">
-														Fotos <span class="caret menu-caret"></span></a>
-														<ul class="dropdown-menu">
-															<li><a href="torneo2012.php">Torneo 2012</a></li>
-															<li><a href="torneo2013.php">Torneo 2013</a></li>
-														
-														</ul>
-													</li>
-												';
-											}
 										?>
+										<!-- /INICIO-->
 										
+										<!-- FOTOS -->
+										<?php
+											if($titulo === "fotos"){
+										?>
+												<li class="dropdown active">
+													<a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="1000" data-close-others="true" href="javascript:{}">
+													Fotos <span class="caret menu-caret"></span></a>
+													<ul class="dropdown-menu">
+										<?php
+											}else{
+										?>			
+												<li class="dropdown">
+													<a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="1000" data-close-others="true" href="javascript:{}">
+													Fotos <span class="caret menu-caret"></span></a>
+													<ul class="dropdown-menu">	
+										<?php
+											}
+											$sql = "SELECT * FROM album";
+											$consulta = mysqli_query($conexion, $sql);
+											$error = "";
+											if ($consulta){
+												while ($album=mysqli_fetch_array($consulta)){
+													?>
+														<li><a href="fotos.php?id=<?php echo $album['id']; ?>"><?php echo $album['nombre']; ?></a></li>
+													<?php 
+												}
+											}else{
+												$error = "Error al consultar Base de Datos: ".mysqli_error($conexion);
+												echo $error;
+											}
+										?>		
+													</ul>
+												</li>
+										<!-- /FOTOS -->
+									
+									
 										<li class="dropdown">
 										<a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="1000" data-close-others="true" href="javascript:{}">
 										Pages <span class="caret menu-caret"></span></a>
