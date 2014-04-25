@@ -1,5 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<?php 
+
+include("fijo/datosaccesodb.php");
+$conexion = mysqli_connect($host, $usuario, $clave, $db);
+if (mysqli_connect_errno()) {
+	echo "Fallo al intentar conectar con la base de datos: (" . mysqli_connect_errno() . ")";
+	die();
+}
+mysqli_query($conexion, "SET NAMES 'utf8'");
+?>
+
+<html lang="es">
 <head>
 <meta charset="utf-8">
 <title>Torneo Petrolero Solidario - Fotos</title>
@@ -29,7 +40,7 @@
 </head>
 <body>
 	<!--header-->
-		<?php $titulo = "torneo2012"; ?>
+		<?php $titulo = "fotos"; ?>
 		<?php include_once("fijo/header.php"); ?>
 	<!--//header-->
 								
