@@ -59,6 +59,24 @@
 										?>
 										<!-- /QUIENES SOMOS -->
 										
+										<!-- LUGAR -->
+										<?php
+											if($titulo === "lugar"){
+												echo '
+												<li class="dropdown active">
+													<a  href="lugar.php">Lugar</a>
+												</li>
+												';
+											}else{
+												echo'
+												<li>
+													<a href="lugar.php">Lugar</a>
+												</li>
+												';
+											}
+										?>
+										<!-- /LUGAR -->										
+										
 										<!-- FOTOS -->
 										<?php
 											if($titulo === "fotos"){
@@ -94,7 +112,7 @@
 												</li>
 										<!-- /FOTOS -->
 									
-									
+																				
 										<li class="dropdown">
 										<a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="1000" data-close-others="true" href="javascript:{}">
 										Pages <span class="caret menu-caret"></span></a>
