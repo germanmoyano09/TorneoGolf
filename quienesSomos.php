@@ -30,24 +30,22 @@
 	<!--header-->
 		<?php $titulo = "quienesSomos"; ?>
 		<?php include_once("fijo/header.php"); ?>
-	<!--//header-->
-								
+	<!--//header-->				
+	
 	<!--page-->
 	<div class="container">
 		<div class="inner_content">
-			<h1 class="title">All About Us</h1>
-			<h1 class="intro">Web design is the creation of <span class="colour">digital environments</span>, that <span class="mid">facilitate</span> and encourage human activity; 
-			<span>reflect</span> or adapt to individual voices and content. - Jeffrey Zeldman</h1>
-		</div>
-	</div>
+					
+			<h1 class="title">Hay equipoo!!! </h1>
+			<h1 class="intro">Web design is the creation of <span class="colour">digital environments</span>, that <span>facilitate</span> and encourage human activity; 
+			<span class="mid">reflect </span> or adapt to individual voices and content; and change gracefully over time while always retaining their identity.</h1>
+				
+			<img  src="img/quienesSomos/team.jpg" alt="" /> 
+			<div class="pad25"></div>
+			<div class="clear"></div>
+				
+			<div class="pad45"></div>
 			
-	<div id="container-id"  class="strip">
-		<!-- CIRCLE IMAGE -->
-		<img title="preset: 'bubble-1'" src="img/large/preset8.jpg" alt=""/> 
-	</div>
-			
-	<div class="container">
-		<div class="inner_content">
 			<div class="row"><div class="pad25"></div>
 				<div class="span4">
 					<div class="animated bounceInLeft"><i class="icon-group  colour  big"></i></div>
@@ -81,7 +79,7 @@
 				</div>
 						
 				<div class="span4">
-					<div class="animated bounceInLeft"><i class="icon-desktop colour big"></i></div>
+					<div class="animated bounceInLeft"><i class="icon-calendar colour big"></i></div>
 					<h2>Our Process</h2>
 					<p>
 						Mauris viverra, tortor eget interdum lacinia, lacus mi tempor purus, eu commodo enim dui ac nisl. Morbi euismod ante quis tellus imperdiet porta.
@@ -96,121 +94,177 @@
 					<div class="pad25"></div>
 				</div>
 			</div>
-					
-			<div class="pad45"></div>
-			<!--quotes rotator-->
-			<div class="main">
-				<div id="cbp-qtrotator" class="cbp-qtrotator">
-					<!--1-->
-					<div class="cbp-qtcontent">
-						<img src="img/illustrations/trojan.png" width="150" height="150" alt="" />
-						<blockquote>
-							<p>It's extremely difficult to be simultaneously concerned with the end-user experience of whatever it is that you're building and the architecture of the program 
-							that delivers that experience.</p>
-							<footer>- Quote Author 1</footer>
-						</blockquote>
+			
+			
+			<div class="center">
+				<!--1-->
+				<div class="content_slider_wrapper" id="slider1">
+					<div class="circle_slider_text_wrapper" id="sw0" style="display: none;">
+						<div class="content_slider_text_block_wrap">
+							<h3>Amanda McHilly</h3><br /><br />
+							<span>Senior PHP Developer</span><br />
+							<span class="bold">E-mail: <a href="#">amanda.mchilly@ilevelstudio.com</a></span>
+							<br /><br />
+							<p>Amanda specializes in establishing and managing internal infrastructure and process for educational institutions, research centers, and non-profits. 
+							She is experienced in project management, finance, organizational leadership, and program implementation, all driven by a commitment to provide outstanding service.</p>
+							<br /><br />
+							<a href="#" class="zocial icon twitter team_ic"></a>
+							<a href="#" class="zocial icon facebook team_ic"></a>
+							<a href="#" class="zocial icon googleplus team_ic"></a>
+							<a href="#" class="zocial icon dribbble team_ic"></a>
+						</div>
+						<div class="clear"></div>	
 					</div>
+				
 					<!--2-->
-					<div class="cbp-qtcontent">
-						<img src="img/illustrations/binoculars.png" width="150" height="150" alt="" />
-						<blockquote>
-							<p>Graphic design is the paradise of individuality, eccentricity, heresy, abnormality, hobbies and humours.</p>
-							<footer>- Quote Author2</footer>
-						</blockquote>
+					<div class="circle_slider_text_wrapper" id="sw1" style="display: none;">
+						<!-- content for the second layer, id="sw1" -->
+						<div class="content_slider_text_block_wrap">
+							<h3>Ben Gillenhall</h3>
+							<br /><br />
+							<span>Graphic/Web Designer</span><br />
+							<span class="bold">E-mail: <a href="#">ben.gillenhall@ilevelstudio.com</a></span>
+							<br /><br />
+							<p>Chemist, cultural events promoter, and now 1st string quarterback of the Company. Talking, stalking, locking, and rocking are his game. He's the guy who seeks out the problems of 
+							the world to which we apply our amazing talents to.</p>
+							<br /><br />
+							<a href="#" class="zocial icon twitter team_ic"></a>
+							<a href="#" class="zocial icon facebook team_ic"></a>
+							<a href="#" class="zocial icon github team_ic"></a>
+						</div>
+						<div class="clear"></div>	
 					</div>
+					
 					<!--3-->
-					<div class="cbp-qtcontent">
-						<img src="img/illustrations/trojan2.png" width="150" height="150" alt="" />
-						<blockquote>
-							<p>The only way to be creative over time - to not be undone by our expertise - is to experiment with ignorance, to stare at things we don't fully understand.</p>
-							<footer>- Quote Author 3</footer>
-						</blockquote>
+					<div class="circle_slider_text_wrapper" id="sw2" style="display: none;">
+						<!-- content for the third layer, id="sw2" -->
+						<div class="content_slider_text_block_wrap">
+							<h3>Giselle Smithsonian</h3>
+							<br /><br />
+							<span>Company PR</span><br />
+							<span class="bold">E-mail: <a href="#">giselle.smithsonian@ilevelstudio.com</a></span>
+							<br /><br />
+							<p>Giselle takes great pride in the company's mission, and enjoys providing sound company structure while producing quality design for socially and environmentally conscious clients. 
+							Giselle also enjoys good type design, the beach, and Boston sports.</p>
+							<br /><br />
+							<a href="#" class="zocial icon twitter team_ic"></a>
+							<a href="#" class="zocial icon facebook team_ic"></a>
+							<a href="#" class="zocial icon linkedin team_ic"></a>
+						</div>
+						<div class="clear"></div>	
 					</div>
-					<!--3-->
-					<div class="cbp-qtcontent">
-						<img src="img/illustrations/brushes.png" width="150" height="150" alt="" />
-						<blockquote>
-							<p>Web design is responsive design. Responsive web design is web design, done right.</p>
-							<footer>- Quote Author 4</footer>
-						</blockquote>
+					
+					<!--4-->
+					<div class="circle_slider_text_wrapper" id="sw3" style="display: none;">
+						<div class="content_slider_text_block_wrap">
+							<h3>Rafael Munez</h3>
+							<br /><br />
+							<span>Audio/Visual Effects</span><br />
+							<span class="bold">E-mail: <a href="#">rafael.munez@ilevelstudio.com</a></span>
+							<br /><br />
+							<p>Born and raised in Rio de Janeiro, Brazil, Rafael moved to Washington, DC in 2006. He has a great interest in international development and is passionate about helping 
+							non-profit organizations and social businesses communicate their messages to the world.</p>
+							<br /><br />
+							<a href="#" class="zocial icon twitter team_ic"></a>
+							<a href="#" class="zocial icon facebook team_ic"></a>
+							<a href="#" class="zocial icon googleplus team_ic"></a>
+						</div>
+						<div class="clear"></div>	
+					</div>
+					<!--5-->
+					<div class="circle_slider_text_wrapper" id="sw4" style="display: none;">	
+						<div class="content_slider_text_block_wrap">
+							<h3>Brenda Wolsh</h3>
+							<br /><br />
+							<span>Web Designer</span><br />
+							<span class="bold">E-mail: <a href="#">brenda.wolsh@ilevelstudio.com</a></span>
+							<br /><br />
+							<p>Brenda Wolsh is a communications expert turned bookkeeper, who also moonlights as a page layout consultant. She was Company's Business Director for over two years before 
+							starting her own bookkeeping consulting business. She thinks good communication and data can change the world.</p>
+							<br /><br />
+							<a href="#" class="zocial icon twitter team_ic"></a>
+							<a href="#" class="zocial icon facebook team_ic"></a>
+							<a href="#" class="zocial icon vimeo team_ic"></a>
+						</div>
+						<div class="clear"></div>	
+					</div>
+					
+					<!--6-->
+					<div class="circle_slider_text_wrapper" id="sw5" style="display: none;">
+						<div class="content_slider_text_block_wrap">
+							<h3>Bradley Cooper</h3>
+							<br /><br />
+							<span>Tea Boy</span><br />
+							<span class="bold">E-mail: <a href="#">bradley.cooper@ilevelstudio.com</a></span>
+							<br /><br />
+							<p>Chemist, cultural events promoter, and now 1st string quarterback of the Company. Talking, stalking, locking, and rocking are his game. He’s the guy who seeks out the
+							 problems of the world to which we apply our amazing talents to.</p>
+							<br /><br />
+							<a href="#" class="zocial icon twitter team_ic"></a>
+							<a href="#" class="zocial icon facebook team_ic"></a>
+							<a href="#" class="zocial icon forrst team_ic"></a>
+						</div>
+						<div class="clear"></div>	
 					</div>
 				</div>
 			</div>
-			<div class="pad25"></div>
-				
-			<div class="row">
-				<div class="span6">
-					<h2>The Studio</h2>
-					<p>
-						<b>Enim ultrices, elementum phasellus. Mauris sed nulla sed, egestas feugiat a dictum libero, nunc sapien tristique facilisis <a href="#">venenatis risus</a> 
-						suspendisse ac nec et. Mauris sed nulla sed, egestas feugiat a dictum libero, nunc sapien.</b>
-					</p>
-					<p>
-						Ecilisis venenatis risus, suspendisse ac nec et. Nulla sed mauris, congue duis proin nonummy elementum phasellus. Mauris sed nulla sed, egestas feugiat a dictum libero, 
-						nunc sapien. Nulla sed mauris, congue duis proin nonummy adipiscing vitae interdum. Enim ultrices, ongue duis proin nonummy facilisis venenatis elementum.
-					</p>
-					<p>
-						Ecilisis venenatis risus, suspendisse ac nec et. Nulla sed mauris, congue duis proin nonummy elementum phasellus. Mauris sed nulla sed, egestas feugiat a dictum libero, 
-						nunc sapien. Nulla sed mauris, congue duis proin nonummy adipiscing feugiat a dictum libero vitae interdum enim ultrices ongue.
-					</p>
-				</div>
-				
-				<div class="span6">
-					<div class="pad25"></div>
-					<div id="container-id2">
-						<img title="preset: 'portrait-1', wait: 3500" src="img/large/preset1.jpg" alt="" /> 
-						<img title="preset: 'diptych', wait: 3500" src="img/large/preset3.jpg" alt=""/> 
-						<img title="preset: 'boxes', wait: 3500" src="img/large/preset4.jpg" alt=""/> 
-						<img title="preset: 'boxes-2', wait: 3500" src="img/large/preset5.jpg" alt=""/>
-						<img title="preset: 'diptych-h', wait: 3500" src="img/large/preset6.jpg" alt=""/> 
-						<img title="preset: 'profile-1', wait: 3500" src="img/large/preset7.jpg" alt=""/> 
-						<img title="preset: 'profile-2', wait: 3500" src="img/large/preset8.jpg" alt=""/>  
-					</div>
-				</div>
-			</div>
-			<div class="pad60"></div>
 		</div>
 	</div>
+	<div class="pad60"></div>
+	<!--//page-->
 	
-				
 	<!-- footer -->
 		<?php include_once("fijo/footer.php"); ?>
 	<!-- /footer -->
 	
 	<!-- up to top -->
-		<a href="#"><i class="go-top hidden-phone hidden-tablet icon-double-angle-up"></i></a>
+		<a href="#"><i class="go-top hidden-phone hidden-tablet  icon-double-angle-up"></i></a>
 	<!--//end-->
-								
-	<!-- scripts -->
-	<script src="js/jquery.js"></script>			
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/scripts.js"></script>	
-	<script src="js/frameit-presets.js"></script>
-	<script src="js/frameit-plugin.js"></script>
-		<!-- frame it pics-->
-	<script>
-	//<![CDATA[
-			// on windows load make sure all image are loaded
-			$(window).load(function() {
-			$("#container-id, #container-id2").show();
-			$('#container-id, #container-id2 ').frameit();
-			})
-			//]]>
-			</script>
+				 
 
-	<!-- quotes -->
-		<script>
-		//<![CDATA[
-			$( function() {
-				/* $( selector ).cbpQTRotator( [options] );
-				{ speed : 700, easing : 'ease', interval : 8000 }
-				$( selector ).cbpQTRotator( 'destroy' );
-				*/
-				$( '#cbp-qtrotator' ).cbpQTRotator();
+<script src="js/jquery.js"></script>			
+<script src="js/bootstrap.min.js"></script>	
+<script type="text/javascript" src="js/scripts.js"></script>
+<script src="js/functions.js" type="text/javascript"></script>
+<script src="js/jquery.content_slider.min.js" type="text/javascript"></script>
+<script src="js/additional_content.js" type="text/javascript"></script>
+
+<!-- circle slider ADD YOUR IMAGES HERE -->
+<script type="text/javascript">
+//<![CDATA[
+	(function($){
+		$(document).ready(function() {
+			var image_array = new Array();
+			image_array = [
+				{image: 'img/team/1.jpg', link_url: 'img/team/1_big.jpg', link_rel: 'prettyPhoto'},
+				{image: 'img/team/2.jpg', link_url: 'img/team/2_big.jpg', link_rel: 'prettyPhoto'},
+				{image: 'img/team/3.jpg', link_url: 'img/team/3_big.jpg', link_rel: 'prettyPhoto'},
+				{image: 'img/team/4.jpg', link_url: 'img/team/4_big.jpg', link_rel: 'prettyPhoto'},
+				{image: 'img/team/5.jpg', link_url: 'img/team/5_big.jpg', link_rel: 'prettyPhoto'},
+				{image: 'img/team/6.jpg', link_url: 'img/team/6_big.jpg', link_rel: 'prettyPhoto'}
+			];
+			$('#slider1').content_slider({		
+				map : image_array,				
+				max_shown_items:5,				// number of visible circles
+				hv_switch: 0,					
+				active_item: 0,					
+				wrapper_text_max_height: 450,	
+				middle_click: 1,				
+				under_600_max_height: 1200,		
+				border_radius:	-1,				
+				automatic_height_resize: 1,
+				border_on_off: 0,
+				allow_shadow: 0,
+				enable_mousewheel:0});
+				$("a[rel^='prettyPhoto']").prettyPhoto();
+			jQuery("a[rel^='prettyPhoto'], a[rel^='lightbox']").prettyPhoto({
+			overlay_gallery: false, social_tools: false,  deeplinking: false
 			});
-			//]]>
-			
-		</script>	
-	<script src="js/functions.js" type="text/javascript"></script>	
+		});
+	})(jQuery);
+	//]]>
+</script>
+
 </body>
 </html>
+
