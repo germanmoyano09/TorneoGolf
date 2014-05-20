@@ -41,23 +41,23 @@
 										?>
 										<!-- /INICIO-->
 										
-										<!-- QUIENES SOMOS -->
+										<!-- EQUIPO -->
 										<?php
-										if($titulo === "quienesSomos"){
+										if($titulo === "equipo"){
 												echo '
 												<li class="dropdown active">
-													<a  href="quienesSomos.php">Quienes Somos </a>
+													<a  href="equipo.php">Equipo </a>
 												</li>
 												';
 											}else{
 												echo'
 												<li>
-													<a href="quienesSomos.php">Quienes Somos</a>
+													<a href="equipo.php">Equipo</a>
 												</li>
 												';
 											}
 										?>
-										<!-- /QUIENES SOMOS -->
+										<!-- /EQUIPO -->
 										
 										<!-- LUGAR -->
 										<?php
@@ -76,6 +76,24 @@
 											}
 										?>
 										<!-- /LUGAR -->										
+										
+										<!-- SPONSORS -->
+										<?php
+											if($titulo === "sponsors"){
+												echo '
+												<li class="dropdown active">
+													<a  href="sponsors.php">Sponsors</a>
+												</li>
+												';
+											}else{
+												echo'
+												<li>
+													<a href="sponsors.php">Sponsors</a>
+												</li>
+												';
+											}
+										?>
+										<!-- /SPONSORS -->		
 										
 										<!-- FOTOS -->
 										<?php
