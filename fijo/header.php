@@ -130,7 +130,7 @@
 												</li>
 										<!-- /FOTOS -->
 									
-																				
+										<!--										
 										<li class="dropdown">
 										<a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="1000" data-close-others="true" href="javascript:{}">
 										Pages <span class="caret menu-caret"></span></a>
@@ -198,6 +198,7 @@
 											<li><a href="blog_post2.html">Blog Post II</a></li>
 										</ul>
 										</li>
+										-->
 										<?php
 											if($titulo === "contacto"){
 												echo '
