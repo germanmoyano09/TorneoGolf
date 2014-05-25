@@ -112,13 +112,13 @@
 													<ul class="dropdown-menu">	
 										<?php
 											}
-											$sql = "SELECT * FROM album";
+											$sql = "SELECT album.id AS idalbum, torneo.nombre FROM album JOIN torneo ON(album.torneo = torneo.id) WHERE album.visible=1";
 											$consulta = mysqli_query($conexion, $sql);
 											$error = "";
 											if ($consulta){
 												while ($album=mysqli_fetch_array($consulta)){
 													?>
-														<li><a href="fotos.php?id=<?php echo $album['id']; ?>"><?php echo $album['nombre']; ?></a></li>
+														<li><a href="fotos.php?id=<?php echo $album['idalbum']; ?>"><?php echo $album['nombre']; ?></a></li>
 													<?php 
 												}
 											}else{
