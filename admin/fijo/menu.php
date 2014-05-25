@@ -14,24 +14,17 @@
 			</a>
 		</li>
 		
-		<li class="<?php if ($titulo=="Sponsors") echo 'active';?>">
-			<a href="sponsors.php">
-			<i class="icon-dollar"></i> 
-			<span class="title">Sponsors</span>
-			</a>
-		</li>
-		
-		<li class="<?php if ($titulo=="Flyers") echo 'active';?>">
-			<a href="flyers.php">
+		<li class="<?php if ($titulo=="Slider") echo 'active';?>">
+			<a href="slider.php">
 			<i class="icon-list-alt"></i> 
-			<span class="title">Flyers</span>
+			<span class="title">Slider</span>
 			</a>
 		</li>
 		
-		<li class="<?php if ($titulo=="Lugares") echo 'active';?>">
-			<a href="lugares.php">
+		<li class="<?php if ($titulo=="Torneo") echo 'active';?>">
+			<a href="torneo.php">
 			<i class="icon-picture"></i> 
-			<span class="title">Lugares</span>
+			<span class="title">Torneo</span>
 			</a>
 		</li>
 		
@@ -40,49 +33,15 @@
 			<i class="icon-camera"></i> 
 			<span class="title">Albums</span>
 			</a>
-		</li>
+		</li>		
 		
-		<li class="<?php if ($titulo=="Categoria") echo 'active';?>">
-			<a href="categorias.php">
-			<i class="icon-folder-close"></i> 
-			<span class="title">Categorías</span>
+		<li class="<?php if ($titulo=="Sponsors") echo 'active';?>">
+			<a href="sponsors.php">
+			<i class="icon-dollar"></i> 
+			<span class="title">Sponsors</span>
 			</a>
 		</li>
-		
-		<li class="<?php if ($titulo=="Beneficios") echo 'active';?>">
-			<a href="beneficios.php">
-			<i class="icon-star-empty"></i> 
-			<span class="title">Beneficios</span>
-			</a>
-		</li>
-
-		<li class="<?php if ($titulo=="Musica") echo 'active';?>">
-			<a href="musica.php">
-			<i class="icon-music"></i> 
-			<span class="title">Música</span>
-			</a>
-		</li>
-		
-		<li class="<?php if ($titulo=="Socio") echo 'active';?>">
-			<a href="javascript:;">
-			<i class="icon-user"></i> 
-			<span class="title">Socios</span>
-			<span class="arrow "></span>
-			</a>
-			<ul class="sub-menu">
-				<li class="<?php if ($subtitulo=="Sociovip") echo 'active';?>">
-					<a href="sociovip.php">
-					<i class="icon-user"></i>
-					VIP</a>
-				</li>
-				<li class="<?php if ($subtitulo=="Socio") echo 'active';?>">
-					<a href="socio.php">
-					<i class="icon-user"></i>
-					Simples Mortales</a>
-				</li>
-			</ul>
-		</li>
-		
+			
 		<li >
 			<a href="../" target="_blank">
 			<i class="icon-expand"></i> 
