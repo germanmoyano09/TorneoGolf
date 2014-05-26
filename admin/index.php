@@ -93,7 +93,7 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
                         Torneo
                      </div>
                   </div>
-                  <a class="more" href="lugares.php">
+                  <a class="more" href="torneo.php">
                   Administrar <i class="m-icon-swapright m-icon-white"></i>
                   </a>                 
                </div>
