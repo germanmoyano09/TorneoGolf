@@ -76,30 +76,6 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
             </div>
 			
 			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-               <div class="dashboard-stat red">
-                  <div class="visual">
-                     <i class="icon-picture"></i>
-                  </div>
-                  <div class="details">
-                     <div class="number">
-                        <?php 
-							$sql = "SELECT * FROM torneo";
-							$result = mysqli_query($conexion, $sql);
-							$row_cnt = mysqli_num_rows($result);
-							printf($row_cnt);
-						?>
-                     </div>
-                     <div class="desc">                           
-                        Torneo
-                     </div>
-                  </div>
-                  <a class="more" href="torneo.php">
-                  Administrar <i class="m-icon-swapright m-icon-white"></i>
-                  </a>                 
-               </div>
-            </div>
-			
-			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                <div class="dashboard-stat blue">
                   <div class="visual">
                      <i class="icon-camera"></i>
@@ -117,7 +93,7 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
                         Albums 
                      </div>
                   </div>
-                  <a class="more" href="fotos.php">
+                  <a class="more" href="album.php">
                   Administrar <i class="m-icon-swapright m-icon-white"></i>
                   </a>                 
                </div>

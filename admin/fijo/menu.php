@@ -20,16 +20,9 @@
 			<span class="title">Slider</span>
 			</a>
 		</li>
-		
-		<li class="<?php if ($titulo=="Torneo") echo 'active';?>">
-			<a href="torneo.php">
-			<i class="icon-picture"></i> 
-			<span class="title">Torneo</span>
-			</a>
-		</li>
-		
-		<li class="<?php if ($titulo=="Fotos") echo 'active';?>">
-			<a href="fotos.php">
+				
+		<li class="<?php if ($titulo=="Album") echo 'active';?>">
+			<a href="Album.php">
 			<i class="icon-camera"></i> 
 			<span class="title">Albums</span>
 			</a>
