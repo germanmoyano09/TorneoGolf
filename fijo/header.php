@@ -101,24 +101,24 @@
 										?>
 												<li class="dropdown active">
 													<a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="1000" data-close-others="true" href="javascript:{}">
-													Fotos <span class="caret menu-caret"></span></a>
+													Galería <span class="caret menu-caret"></span></a>
 													<ul class="dropdown-menu">
 										<?php
 											}else{
 										?>			
 												<li class="dropdown">
 													<a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="1000" data-close-others="true" href="javascript:{}">
-													Fotos <span class="caret menu-caret"></span></a>
+													Galería <span class="caret menu-caret"></span></a>
 													<ul class="dropdown-menu">	
 										<?php
 											}
-											$sql = "SELECT album.id AS idalbum, torneo.nombre FROM album JOIN torneo ON(album.torneo = torneo.id) WHERE album.visible=1";
+											$sql = "SELECT id,nombre FROM album WHERE album.visible=1";
 											$consulta = mysqli_query($conexion, $sql);
 											$error = "";
 											if ($consulta){
 												while ($album=mysqli_fetch_array($consulta)){
 													?>
-														<li><a href="fotos.php?id=<?php echo $album['idalbum']; ?>"><?php echo $album['nombre']; ?></a></li>
+														<li><a href="fotos.php?id=<?php echo $album['id']; ?>"><?php echo $album['nombre']; ?></a></li>
 													<?php 
 												}
 											}else{
