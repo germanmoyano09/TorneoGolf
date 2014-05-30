@@ -62,231 +62,41 @@
 					echo $error;
 				}
 			?>
-	
-			<!--
-			<h1 class="intro">Web design is the creation of <span class="colour">digital environments</span>, that <span>facilitate</span> and encourage human activity; 
-			<span>reflect </span> or adapt to individual voices and content. - Jeffrey Zeldman</h1>
-			-->
+				
+			<h1 class="intro">Web design is the creation of or adapt to individual voices and content. - Jeffrey Zeldman</h1>
+		
 			<div class="holder"></div>
 			<!-- YOU CAN CHANGE THE AMOUNT OF IMAGES PER PAGE AT THE FOOT OF THIS PAGE - SEE COMMENTED CODE - SET NUMBER OF IMAGES PER PAGE -->
       
 			<!-- item container -->
 			<div class="row">
-				<ul id="itemContainer">                         
-					<li><div class="span3">
-						<div class="hover_colour">
-					<a href="img/portfolio/1.jpg" data-rel="prettyPhoto[portfolio1]"> 
-					<img src="img/portfolio/1.jpg" alt="" /></a></div> 
-						<div class="pad15"></div>                            
-					</div>
-					</li>
-					
-					<li>
-					<div class="span3">
-						<div class="hover_colour">
-					<a href="img/portfolio/2.jpg" data-rel="prettyPhoto[portfolio1]"> 
-					<img src="img/portfolio/2.jpg" alt="" /></a></div> 
-					   <div class="pad15"></div>
-					</div>
-					</li>
-					
-					<li>
-					 <div class="span3">
-						<div class="hover_colour">
-					<a href="img/portfolio/3.jpg" data-rel="prettyPhoto[portfolio1]"> 
-					<img src="img/portfolio/3.jpg" alt="" /></a></div> 
-						<div class="pad15"></div>
-					</div>
-					</li>
-					<li>
-					
-					<div class="span3">
-						<div class="hover_colour">
-					<a href="img/portfolio/4.jpg" data-rel="prettyPhoto[portfolio1]"> 
-					<img src="img/portfolio/4.jpg" alt="" /></a></div>  
-						<div class="pad15"></div>                              
-					</div>
-					</li>
-					
-					<li>
-					<div class="span3">
-						<div class="hover_colour">
-					<a href="img/portfolio/5.jpg" data-rel="prettyPhoto[portfolio1]"> 
-					<img src="img/portfolio/5.jpg" alt="" /></a></div> 
-						<div class="pad15"></div>
-					</div>
-					</li>
-					
-					<li>
-				   <div class="span3">
-						<div class="hover_colour">
-					<a href="img/portfolio/6.jpg" data-rel="prettyPhoto[portfolio1]"> 
-					<img src="img/portfolio/6.jpg" alt="" /></a></div> 
-						<div class="pad15"></div>
-					</div>
-					</li>
-					
-					<li>
-					<div class="span3">
-						<div class="hover_colour">
-					<a href="img/portfolio/7.jpg" data-rel="prettyPhoto[portfolio1]"> 
-					<img src="img/portfolio/7.jpg" alt="" /></a></div>  
-						<div class="pad15"></div>                                    
-					</div>
-					</li>
-					
-					<li>
-					<div class="span3">
-						<div class="hover_colour">
-					<a href="img/portfolio/8.jpg" data-rel="prettyPhoto[portfolio1]"> 
-					<img src="img/portfolio/8.jpg" alt="" /></a></div> 
-						<div class="pad15"></div>
-					</div>
-					</li>
-					
-					<li>
-				   <div class="span3">
-						<div class="hover_colour">
-					<a href="img/portfolio/9.jpg" data-rel="prettyPhoto[portfolio1]"> 
-					<img src="img/portfolio/9.jpg" alt="" /></a></div> 
-							<div class="pad15"></div>
-					</div>
-					</li>
-					
-					<li>
-					<div class="span3">
-						<div class="hover_colour">
-					<a href="img/portfolio/10.jpg" data-rel="prettyPhoto[portfolio1]"> 
-					<img src="img/portfolio/10.jpg" alt="" /></a></div>  
-						<div class="pad15"></div>                                    
-					</div>
-					</li>
-					
-					<li>
-					<div class="span3">
-						<div class="hover_colour">
-					<a href="img/portfolio/11.jpg" data-rel="prettyPhoto[portfolio1]"> 
-					<img src="img/portfolio/11.jpg" alt="" /></a></div>  
-						<div class="pad15"></div>                                    
-					</div>
-					</li>
-					
-					<li>
-					<div class="span3">
-						<div class="hover_colour">
-					<a href="img/portfolio/12.jpg" data-rel="prettyPhoto[portfolio1]"> 
-					<img src="img/portfolio/12.jpg" alt="" /></a></div> 
-						<div class="pad15"></div>
-					</div>
-					</li>
-					
-					<li><div class="span3">
-					<div class="hover_colour">
-					<a href="img/portfolio/1.jpg" data-rel="prettyPhoto[portfolio1]"> 
-					<img src="img/portfolio/1.jpg" alt="" /></a></div> 
-					   <div class="pad15"></div>                            
-					</div>
-					</li>
-					
-					<li>
-					<div class="span3">
-						<div class="hover_colour">
-					<a href="img/portfolio/2.jpg" data-rel="prettyPhoto[portfolio1]"> 
-					<img src="img/portfolio/2.jpg" alt="" /></a></div> 
-					   <div class="pad15"></div>
-					</div>
-					</li>
-					
-					<li>
-					 <div class="span3">
-						<div class="hover_colour">
-					<a href="img/portfolio/3.jpg" data-rel="prettyPhoto[portfolio1]"> 
-					<img src="img/portfolio/3.jpg" alt="" /></a></div> 
-						<div class="pad15"></div>
-					</div>
-					</li>
-					<li>
-					
-					<div class="span3">
-						<div class="hover_colour">
-					<a href="img/portfolio/4.jpg" data-rel="prettyPhoto[portfolio1]"> 
-					<img src="img/portfolio/4.jpg" alt="" /></a></div>  
-						<div class="pad15"></div>                              
-					</div>
-					</li>
-					
-					<li>
-					<div class="span3">
-						<div class="hover_colour">
-					<a href="img/portfolio/5.jpg" data-rel="prettyPhoto[portfolio1]"> 
-					<img src="img/portfolio/5.jpg" alt="" /></a></div> 
-						<div class="pad15"></div>
-					</div>
-					</li>
-					
-					<li>
-				   <div class="span3">
-						<div class="hover_colour">
-					<a href="img/portfolio/6.jpg" data-rel="prettyPhoto[portfolio1]"> 
-					<img src="img/portfolio/6.jpg" alt="" /></a></div> 
-						<div class="pad15"></div>
-					</div>
-					</li>
-					
-					<li>
-					<div class="span3">
-						<div class="hover_colour">
-					<a href="img/portfolio/7.jpg" data-rel="prettyPhoto[portfolio1]"> 
-					<img src="img/portfolio/7.jpg" alt="" /></a></div>  
-						<div class="pad15"></div>                                    
-					</div>
-					</li>
-					
-					<li>
-					<div class="span3">
-						<div class="hover_colour">
-					<a href="img/portfolio/8.jpg" data-rel="prettyPhoto[portfolio1]"> 
-					<img src="img/portfolio/8.jpg" alt="" /></a></div> 
-						<div class="pad15"></div>
-					</div>
-					</li>
-					
-					<li>
-				   <div class="span3">
-						<div class="hover_colour">
-					<a href="img/portfolio/9.jpg" data-rel="prettyPhoto[portfolio1]"> 
-					<img src="img/portfolio/9.jpg" alt="" /></a></div> 
-							<div class="pad15"></div>
-					</div>
-					</li>
-					
-					<li>
-					<div class="span3">
-						<div class="hover_colour">
-					<a href="img/portfolio/10.jpg" data-rel="prettyPhoto[portfolio1]"> 
-					<img src="img/portfolio/10.jpg" alt="" /></a></div>  
-						<div class="pad15"></div>                                    
-					</div>
-					</li>
-					
-					<li>
-					<div class="span3">
-						<div class="hover_colour">
-					<a href="img/portfolio/11.jpg" data-rel="prettyPhoto[portfolio1]"> 
-					<img src="img/portfolio/11.jpg" alt="" /></a></div>  
-						<div class="pad15"></div>                                    
-					</div>
-					</li>
-					
-					<li>
-					<div class="span3">
-						<div class="hover_colour">
-					<a href="img/portfolio/12.jpg" data-rel="prettyPhoto[portfolio1]"> 
-					<img src="img/portfolio/12.jpg" alt="" /></a></div> 
-						<div class="pad15"></div>
-					</div>
-					</li>
-				</ul>
+				<ul id="itemContainer">
+					<?php
+						$id = $_GET['id'];
+						$sql = "SELECT nombre FROM foto WHERE album = $id";
+						$consulta = mysqli_query($conexion, $sql);
+						$error = "";
+						if($consulta){
+							while($foto = mysqli_fetch_array($consulta)){
+					?>
+								<li>
+									<div class="span3">
+										<div class="hover_colour">
+											<a href="img/galeria/fotos/<?php echo $foto['nombre'] ?>" data-rel="prettyPhoto[portfolio1]"> 
+												<img src="img/galeria/fotosthumbs/thumb-<?php echo $foto['nombre'] ?>" alt="" />
+											</a>
+										</div> 
+										<div class="pad15"></div>                            
+									</div>
+								</li>
+					<?php
+							}
+						}else{
+							$error = "Error al consultar Base de Datos: ".mysqli_error($conexion);
+							echo $error;
+						}
+					?>
+				</ul>	
 			</div>
 				
 			<div class="holder"></div>
@@ -317,7 +127,7 @@
 	$("#itemContainer").show();
 	   $("div.holder").jPages({
 			containerID  : "itemContainer",
-			perPage      : 20,
+			perPage      : 40,
 			keyBrowse   : true
 		});
 	});
