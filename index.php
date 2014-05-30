@@ -61,7 +61,8 @@
 	<!-- banner -->	
 	<div id="banner">
 		<div class="welcome_index">
-			Cada vez falta menos para nuestro próximo torneo. Por cualquier consulta o recomendación puede conctactarnos en la sección de contacto.
+			Cada vez falta menos para nuestro próximo torneo. <br>
+			Cualquier consulta o recomendación puede comunicarse con nosotros a través de la sección de contacto.
 		</div>
 		<!-- Countdown-->
 		<div class="mainWrapper">
