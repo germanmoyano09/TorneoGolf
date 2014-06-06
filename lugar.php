@@ -36,8 +36,11 @@
 	<div class="container">
 		<div class="inner_content">
 			<h1 class="title">Las Palmas Country Club </h1>
-			<h1 class="intro">Fue el lugar elegido para realizar nuestras tres primeras ediciones del <span>Torneo Petrolero Solidario</span>  y será sede 
-			de nuestro próximo torneo (editar).   
+			<h1 class="intro">
+			El <span>Torneo Petrolero Solidario</span> tendrá como sede Las Palmas Country Club, el cual fue elegido como sede durante las tres últimas 
+			competencias debido a su amplitud y comodidades las cuales permiten que el juego pueda desarrollarse de manera adecuada.
+						
+			 
 			</h1>
 		</div>
 	</div>
