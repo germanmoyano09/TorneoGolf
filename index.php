@@ -29,17 +29,6 @@
 <link rel="stylesheet" href="css/font-awesome-ie7.min.css">
 <![endif]-->
 
-<!--    COUNTDOWN -->
-	<!-- CSS start Here-->
-	<link rel="stylesheet" href="CountDown/css/reset.css">
-	<link rel="stylesheet" href="CountDown/css/flipclock.css">
-	<link rel="stylesheet" href="CountDown/css/style.css" />
-	<link rel="stylesheet" href="CountDown/css/theme.css" />
-	<!-- CSS end Here-->
-	<!-- JS start Here-->
-	<script src="CountDown/js/jquery.js"></script>
-	<script src="CountDown/js/modernizr.js"></script>
-<!--/COUNTDOWN -->
 
 </head>
 
@@ -64,15 +53,7 @@
 			Cada vez falta menos para nuestro próximo torneo. <br>
 			Cualquier consulta o recomendación puede comunicarse con nosotros a través de la sección de contacto.
 		</div>
-		<!-- Countdown-->
-		<div class="mainWrapper">
-			<!-- Countdown Wrapper start Here-->
-			<section class="countdown-wrapper cf">
-				<div class="countdown cf"></div>
-			</section>
-			<!-- Countdown Wrapper end Here-->	
-		</div>
-		<!-- /Countdown-->
+		
 	</div>
 	<!--//banner-->
 		
@@ -85,7 +66,9 @@
 	<!-- up to top -->
 	<a href="#"><i class="go-top hidden-phone hidden-tablet  icon-double-angle-up"></i></a>
 	<!--//end-->
-						
+	
+	</div> <!--header -->				
+	
 	<!-- scripts -->
 	<script src="js/jquery.js"></script>			
 	<script src="js/bootstrap.min.js"></script>	
@@ -110,14 +93,7 @@
 		});
 	//]]>
 	</script>
-		
-	<!--    COUNTDOWN -->
-	<!-- JS start Here-->
-	<script src="CountDown/js/flipclock/libs/prefixfree.min.js"></script>
-	<script src="CountDown/js/flipclock/flipclock.min.js"></script>
-	​<script src="CountDown/js/custom.js"></script>
-	<!-- JS end Here
-	<!--    /COUNTDOWN -->
+	
 		
 </body>
 </html>
