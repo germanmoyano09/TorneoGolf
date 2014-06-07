@@ -30,6 +30,18 @@
 <![endif]-->
 
 
+<!-- COUNTDOWN -->
+<!-- Mobile Specific Metas-->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS -->
+	<!--<link rel="stylesheet" href="countdown/css/bootstrap.css" type="text/css" media="screen"> -->
+	<link rel="stylesheet" href="countdown/css/bootstrap-theme.css" type="text/css" media="screen"> 
+	<link rel="stylesheet" href="countdown/css/layout.css" type="text/css" media="screen"> 
+	<link rel="stylesheet" href="countdown/css/background.css" type="text/css" media="screen">
+	
+<!-- /COUNTDOWN -->
+
 </head>
 
 <body id="index">
@@ -53,6 +65,34 @@
 			Cada vez falta menos para nuestro próximo torneo. <br>
 			Cualquier consulta o recomendación puede comunicarse con nosotros a través de la sección de contacto.
 		</div>
+		
+		<div class="container isi">
+			<div class="row">
+				<div class="col-xs-12 text-center">
+					<div class="countdown">
+						<ul class="time">
+							<li class="dotted color">
+								<div class="days"></div><br />
+								Días
+							</li>
+							<li class="dotted last2 color">
+								<div class="hours"></div><br />
+								Horas
+							</li>
+							<li class="dotted color">
+								<div class="minutes"></div><br />
+								Minutos
+							</li>
+							<li class="dotted last color">
+								<div class="seconds"></div><br />
+								Segundos
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
 		
 	</div>
 	<!--//banner-->
@@ -94,6 +134,16 @@
 	//]]>
 	</script>
 	
+	<!-- js COUNTDOWN -->
+	
+	<!--<script type="text/javascript" src="countdown/js/jquery-1-8-3.min.js"></script>-->
+	<script type="text/javascript" src="countdown/js/jquery.countdown.js" charset="utf-8"></script>
+	<script type="text/javascript" src="countdown/js/countdown.js" charset="utf-8"></script>
+	<script type="text/javascript" src="countdown/js/supersized.3.2.7.js" charset="utf-8"></script>
+	<script type="text/javascript" src="countdown/js/images.js" charset="utf-8"></script>
+	<script type="text/javascript" src="countdown/js/form.js" charset="utf-8"></script>
+	<script type="text/javascript" src="countdown/js/cssloader.js" charset="utf-8"></script>
+	<!-- /js COUNTDOWN -->
 		
 </body>
 </html>
