@@ -36,65 +36,49 @@
 	<div class="container">
 		<div class="inner_content">
 					
-			<h1 class="title">Hay equipoo!!! </h1>
-			<h1 class="intro">Web design is the creation of <span class="colour">digital environments</span>, that <span>facilitate</span> and encourage human activity; 
+			<h1 class="title">¿Quiénes somos? </h1>
+			
+			<h1 class="intro">
+				Somos un grupo de amigos relacionados con la industria petrolera que hemos decidido organizar nuevamente un Torneo de Golf que se
+				llama<span> “TORNEO PETROLERO SOLIDARIO”</span>
+			</h1>
+			<!--
+			Web design is the creation of <span class="colour">digital environments</span>, that <span>facilitate</span> and encourage human activity; 
 			<span class="mid">reflect </span> or adapt to individual voices and content; and change gracefully over time while always retaining their identity.</h1>
-				
+				-->
 			<img  src="img/quienesSomos/team.jpg" alt="" /> 
-			<div class="pad25"></div>
+			<div class="pad10"></div>
 			<div class="clear"></div>
 				
-			<div class="pad45"></div>
+		
 			
 			<div class="row"><div class="pad25"></div>
-				<div class="span4">
-					<div class="animated bounceInLeft"><i class="icon-group  colour  big"></i></div>
-					<h2>Our Philosophy</h2>
-					<p>
-						<b>Wullam ligula sapien, pharetra eget volutpat vel, consequat in lectus. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </b>
-					</p>
-					<p>
-						Wullam ligula sapien, pharetra eget volutpat vel, consequat in lectus sed do. 
-						<a href="#" data-rel="tooltip" data-placement="top" title="Here is the sample of tooltip that 
-						contains three lines or more."><strong>Hover here to see a Tooltip</strong></a> eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-						Class aptent taciti sociosqu ad litora torquent.
-					</p>
+				<div class="span12">
+					<h1 class="intro">Historia</h1>
+					<h2 style="text-align:justify;">
+						Hace más o menos 10 años atrás se inició con la organización anual de un Torneo Petrolero de Golf con mucho éxito, con jugadores
+						y no jugadores muy entusiastas y, donde participaban todas las Empresas Petroleras, tanto Operadoras como Compañías de Servicio, 
+						luego por razones ajenas este Torneo dejo de llevarse a cabo.
+					</h2>
+	
 					<div class="pad25"></div>
 				</div>
 						
-				<div class="span4">
-					<div class="animated bounceInLeft"><i class="icon-cogs colour big"></i></div>
-					<h2>Our Mission</h2>
-					<p>
-						Mauris viverra, tortor eget interdum lacinia, lacus mi tempor purus, eu commodo enim dui ac nisl. Morbi euismod ante quis tellus imperdiet porta. 
-					</p>
-							
-					<ul class="icons">
-						<li><i class="icon-ok colour"></i> Responsive Design</li>
-						<li><i class="icon-ok colour"></i> One font, 249 icons</li>
-						<li><i class="icon-ok colour"></i> Powerful front-end framework</li>
-						<li><i class="icon-ok colour"></i> Built with Twitter Bootstrap</li>
-					</ul>
-					<div class="pad25"></div>
-				</div>
-						
-				<div class="span4">
-					<div class="animated bounceInLeft"><i class="icon-calendar colour big"></i></div>
-					<h2>Our Process</h2>
-					<p>
-						Mauris viverra, tortor eget interdum lacinia, lacus mi tempor purus, eu commodo enim dui ac nisl. Morbi euismod ante quis tellus imperdiet porta.
-					</p>
-					
-					<ul class="icons">
-						<li><i class="icon-desktop colour"></i> Powerful front-end framework</li>
-						<li><i class="icon-laptop colour"></i> Built with Twitter Bootstrap</li>
-						<li><i class="icon-tablet colour"></i> CSS3 Animations</li>
-						<li><i class="icon-mobile-phone colour"></i> One font, 249 icons</li>
-					</ul>
+				<div class="span12">
+					<h1 class="intro">Nuestro Compromiso</h1>
+					<h2 style="text-align:justify;">
+						Después de algunos años de ausencia, algunas empresas, personas y amigos relacionados con la industria petrolera hemos decidido organizar nuevamente un Torneo de Golf que se llama “TORNEO PETROLERO SOLIDARIO”, con el fin compartir durante dos días entre golfistas aficionados y al mismo tiempo de beneficiar a instituciones que necesitan de un apoyo, de esta manera iniciamos nuestras obras el año 2011 con la organización del primer Torneo Petrolero Solidario para ayudar a un colega de trabajo que estaba inmerso en una tremenda lucha contra la enfermedad del Cancer de uno de sus hijos, lucha que gracias a Dios fue superada.
+						<br><br>
+						El siguiente año 2012 el Centro de Paralisis Cerebral fue nuestra institución beneficiada, esta institución pasaba por una situación económica muy crítica, visitamos vimos el gran trabajo que hacen quienes dirigen dicho Centro y llegamos a ellos con un granito de arena que sirvió para sostener y pasar el momento critico.
+						<br><br>
+						Año 2013, nuestra mirada fue hacia la Fundación  Síndrome de Down (FUSINDO), quienes necesitaban ayuda para hacer mejoras en la infraestructura de su sede, fue una experiencia hermosa el compartir con personas tan especiales y con tanto amor como son los niños de FUSIDO y también compartir con las Sras quienes administran esta gran institución.
+						<br><br>
+						Seguiremos caminando por esta misma senda y continuaremos apoyando a quien lo necesite.
+
+					</h2>
 					<div class="pad25"></div>
 				</div>
 			</div>
-			
 		</div>
 	</div>
 	<div class="pad60"></div>
