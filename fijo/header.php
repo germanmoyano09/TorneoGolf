@@ -59,6 +59,24 @@
 										?>
 										<!-- /EQUIPO -->
 										
+										<!-- TORNEO -->
+										<?php
+										if($titulo === "torneo"){
+												echo '
+												<li class="dropdown active">
+													<a  href="torneo.php">Torneo </a>
+												</li>
+												';
+											}else{
+												echo'
+												<li>
+													<a href="torneo.php">Torneo</a>
+												</li>
+												';
+											}
+										?>
+										<!-- /TORNEO -->
+										
 										<!-- LUGAR -->
 										<?php
 											if($titulo === "lugar"){
