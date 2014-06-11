@@ -28,7 +28,7 @@
 </head>
 <body>
 	<!--header-->
-		<?php $titulo = "quienesSomos"; ?>
+		<?php $titulo = "equipo"; ?>
 		<?php include_once("fijo/header.php"); ?>
 	<!--//header-->				
 	
