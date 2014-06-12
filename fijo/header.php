@@ -18,7 +18,7 @@
 							<i class="icon-align-justify icon-2x"></i></button>
 							<!--logo-->			
 							<div class="logo">
-								<!-- <a href="index.php"><img src="img/logo.jpg" alt="" class="animated bounceInDown" /></a>  -->
+								<a href="index.php"><img src="img/logo.png " alt="" class="animated bounceInDown" style="margin-top: -10px; margin-bottom:-10px"/></a> 
 							</div>
 							<!-- menu-->
 								<div class="nav-collapse collapse">
