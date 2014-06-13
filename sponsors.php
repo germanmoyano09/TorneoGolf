@@ -35,9 +35,11 @@
 	<!--page-->
 	<div class="container">
 		<div class="inner_content">
-			<h1 class="title">Nuestros Sponsors</h1>
+			<h1 class="title">Nuestros Auspiciantes</h1>
 			<h1 class="intro">
-				El <span>Torneo Petrolero Solidario </span> cuenta con la participación de las principales y más importantes empresas petroleras del país.
+				El <span>Torneo Petrolero Solidario </span> cuenta con el auspicio de todas las Empresas Petroleras de Servicio, así
+				como las Operadoras y Empresas Amigas quienes colaboran con nuestro emprendimiento de forma totalmente Solidaria y con
+				un gran desprendimiento, hacemos llegar a todos ellos un gran saludo y un gran agradecimiento.
 			</h1>
 					
 			<div class="row">
@@ -46,66 +48,63 @@
 					<div class="pad15"></div>
 					
 					<div data-zlname="hover">
-						<img src="img/sponsors/mi_small.jpg" alt="" />
-						<a data-zl-popup="link" href="img/sponsors/mi.jpg" data-rel="prettyPhoto[portfolio1]"></a>
+						<img src="img/sponsors/logothumbs/26.jpg" alt="" />
+						<a data-zl-popup="link" href="img/sponsors/logo/26.png" data-rel="prettyPhoto[portfolio1]"></a>
 					</div>
 					<div class="pad25"></div>
 				</div> 
-				
 				<div class="span4">
 					<h2> MI-SWACO</h2>
 					<div class="pad15"></div>
 					
 					<div data-zlname="hover">
-						<img src="img/sponsors/mi_small.jpg" alt="" />
-						<a data-zl-popup="link" href="img/sponsors/mi.jpg" data-rel="prettyPhoto[portfolio1]"></a>
+						<img src="img/sponsors/logothumbs/01.jpg" alt="" />
+						<a data-zl-popup="link" href="img/sponsors/logo/01.png" data-rel="prettyPhoto[portfolio1]"></a>
 					</div>
 					<div class="pad25"></div>
 				</div> 
-				
 				<div class="span4">
 					<h2> MI-SWACO</h2>
 					<div class="pad15"></div>
 					
 					<div data-zlname="hover">
-						<img src="img/sponsors/mi_small.jpg" alt="" />
-						<a data-zl-popup="link" href="img/sponsors/mi.jpg" data-rel="prettyPhoto[portfolio1]"></a>
+						<img src="img/sponsors/logothumbs/02.jpg" alt="" />
+						<a data-zl-popup="link" href="img/sponsors/logo/02.png" data-rel="prettyPhoto[portfolio1]"></a>
 					</div>
 					<div class="pad25"></div>
 				</div> 
-				
 				<div class="span4">
 					<h2> MI-SWACO</h2>
 					<div class="pad15"></div>
 					
 					<div data-zlname="hover">
-						<img src="img/sponsors/mi_small.jpg" alt="" />
-						<a data-zl-popup="link" href="img/sponsors/mi.jpg" data-rel="prettyPhoto[portfolio1]"></a>
+						<img src="img/sponsors/logothumbs/03.jpg" alt="" />
+						<a data-zl-popup="link" href="img/sponsors/logo/03.png" data-rel="prettyPhoto[portfolio1]"></a>
 					</div>
 					<div class="pad25"></div>
 				</div> 
-				
 				<div class="span4">
 					<h2> MI-SWACO</h2>
 					<div class="pad15"></div>
 					
 					<div data-zlname="hover">
-						<img src="img/sponsors/mi_small.jpg" alt="" />
-						<a data-zl-popup="link" href="img/sponsors/mi.jpg" data-rel="prettyPhoto[portfolio1]"></a>
+						<img src="img/sponsors/logothumbs/04.jpg" alt="" />
+						<a data-zl-popup="link" href="img/sponsors/logo/04.png" data-rel="prettyPhoto[portfolio1]"></a>
 					</div>
 					<div class="pad25"></div>
 				</div> 
-				
 				<div class="span4">
 					<h2> MI-SWACO</h2>
 					<div class="pad15"></div>
 					
 					<div data-zlname="hover">
-						<img src="img/sponsors/mi_small.jpg" alt="" />
-						<a data-zl-popup="link" href="img/sponsors/mi.jpg" data-rel="prettyPhoto[portfolio1]"></a>
+						<img src="img/sponsors/logothumbs/05.jpg" alt="" />
+						<a data-zl-popup="link" href="img/sponsors/logo/05.png" data-rel="prettyPhoto[portfolio1]"></a>
 					</div>
 					<div class="pad25"></div>
 				</div> 
+				
+				
 						
 				
 			</div>
