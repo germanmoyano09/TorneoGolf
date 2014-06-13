@@ -1,4 +1,13 @@
 <!DOCTYPE html>
+<?php 
+	include("fijo/datosaccesodb.php");
+	$conexion = mysqli_connect($host, $usuario, $clave, $db);
+	if (mysqli_connect_errno()) {
+		echo "Fallo al intentar conectar con la base de datos: (" . mysqli_connect_errno() . ")";
+		die();
+	}
+	mysqli_query($conexion, "SET NAMES 'utf8'");
+?>
 <html lang="es">
 <head>
 <meta charset="utf-8">
@@ -43,70 +52,28 @@
 			</h1>
 					
 			<div class="row">
-				<div class="span4">
-					<h2> MI-SWACO</h2>
-					<div class="pad15"></div>
-					
-					<div data-zlname="hover">
-						<img src="img/sponsors/logothumbs/26.jpg" alt="" />
-						<a data-zl-popup="link" href="img/sponsors/logo/26.png" data-rel="prettyPhoto[portfolio1]"></a>
-					</div>
-					<div class="pad25"></div>
-				</div> 
-				<div class="span4">
-					<h2> MI-SWACO</h2>
-					<div class="pad15"></div>
-					
-					<div data-zlname="hover">
-						<img src="img/sponsors/logothumbs/01.jpg" alt="" />
-						<a data-zl-popup="link" href="img/sponsors/logo/01.png" data-rel="prettyPhoto[portfolio1]"></a>
-					</div>
-					<div class="pad25"></div>
-				</div> 
-				<div class="span4">
-					<h2> MI-SWACO</h2>
-					<div class="pad15"></div>
-					
-					<div data-zlname="hover">
-						<img src="img/sponsors/logothumbs/02.jpg" alt="" />
-						<a data-zl-popup="link" href="img/sponsors/logo/02.png" data-rel="prettyPhoto[portfolio1]"></a>
-					</div>
-					<div class="pad25"></div>
-				</div> 
-				<div class="span4">
-					<h2> MI-SWACO</h2>
-					<div class="pad15"></div>
-					
-					<div data-zlname="hover">
-						<img src="img/sponsors/logothumbs/03.jpg" alt="" />
-						<a data-zl-popup="link" href="img/sponsors/logo/03.png" data-rel="prettyPhoto[portfolio1]"></a>
-					</div>
-					<div class="pad25"></div>
-				</div> 
-				<div class="span4">
-					<h2> MI-SWACO</h2>
-					<div class="pad15"></div>
-					
-					<div data-zlname="hover">
-						<img src="img/sponsors/logothumbs/04.jpg" alt="" />
-						<a data-zl-popup="link" href="img/sponsors/logo/04.png" data-rel="prettyPhoto[portfolio1]"></a>
-					</div>
-					<div class="pad25"></div>
-				</div> 
-				<div class="span4">
-					<h2> MI-SWACO</h2>
-					<div class="pad15"></div>
-					
-					<div data-zlname="hover">
-						<img src="img/sponsors/logothumbs/05.jpg" alt="" />
-						<a data-zl-popup="link" href="img/sponsors/logo/05.png" data-rel="prettyPhoto[portfolio1]"></a>
-					</div>
-					<div class="pad25"></div>
-				</div> 
-				
-				
-						
-				
+			<?php
+				$sql = "SELECT * FROM sponsor";
+				$consulta = mysqli_query($conexion, $sql);
+				$error = "";
+				if($consulta){
+					while($sponsor = mysqli_fetch_array($consulta)){
+						?>
+							<div class="span4">
+								<h2><?php echo $sponsor['nombre'] ?> </h2>
+								<div class="pad15"></div>
+								<div data-zlname="hover">
+									<img src="img/sponsors/<?php echo $sponsor['imagen'] ?>" alt="" />
+								</div>
+								<div class="pad25"></div>
+							</div> 
+						<?php
+					}
+				}else{
+					$error = "Error al consultar Base de Datos: ".mysqli_error($conexion);
+					echo $error;
+				}
+			?>
 			</div>
 		</div>
 	</div>	
@@ -121,44 +88,12 @@
 		<a href="#"><i class="go-top hidden-phone hidden-tablet  icon-double-angle-up"></i></a>
 	<!--//end-->
 				
-<script type="text/javascript" src='js/jquery.js'></script>	
-<script src="js/jquery.easing.js" type="text/javascript"></script>		
-<script src="js/bootstrap.min.js"></script>	
-<script type="text/javascript" src="js/scripts.js"></script>
-<script src="js/functions.js" type="text/javascript"></script>
-<script src="js/jquery.mate-hover.1-1-min.js" type="text/javascript"></script>
+	<script type="text/javascript" src='js/jquery.js'></script>	
+	<script src="js/jquery.easing.js" type="text/javascript"></script>		
+	<script src="js/bootstrap.min.js"></script>	
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<script src="js/functions.js" type="text/javascript"></script>
+	<script src="js/jquery.mate-hover.1-1-min.js" type="text/javascript"></script>
 
-<!--slider-->
-<script src="js/jquery.content_slider.min.js" type="text/javascript"></script>
-<!-- ADD YOUR CLIENT IMAGES HERE -->
-<script type="text/javascript">
-//<![CDATA[
-	(function($){
-		$(document).ready(function() {
-			var image_array = new Array();
-			image_array = [
-				{image: 'img/clients/1.jpg', link_url: 'img/clients/1.jpg', link_rel: 'prettyPhoto'},
-				{image: 'img/clients/2.jpg', link_url: 'img/clients/2.jpg', link_rel: 'prettyPhoto'},
-				{image: 'img/clients/3.jpg', link_url: 'img/clients/3.jpg', link_rel: 'prettyPhoto'},
-				{image: 'img/clients/4.jpg', link_url: 'img/clients/4.jpg', link_rel: 'prettyPhoto'},
-				{image: 'img/clients/5.jpg', link_url: 'img/clients/5.jpg', link_rel: 'prettyPhoto'}
-			];
-			$('#slider1').content_slider({		
-				map : image_array,				
-				max_shown_items: 5,			
-				hv_switch: 0, active_item: 0,					
-				wrapper_text_max_height: 210, middle_click: 1, under_600_max_height: 1200,		
-				border_on_off:0, allow_shadow:0, border_radius: 0, enable_mousewheel:0
-			});
-			$("a[rel^='prettyPhoto']").prettyPhoto();
-			jQuery("a[rel^='prettyPhoto'], a[rel^='lightbox']").prettyPhoto({
-			overlay_gallery: false, social_tools: false,  deeplinking: false
-			});
-		});
-	})(jQuery);
-	//]]>
-</script>
-			
 </body>
 </html>
-

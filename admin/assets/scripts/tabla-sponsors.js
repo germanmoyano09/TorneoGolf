@@ -14,26 +14,24 @@ var TablaSponsors = function () {
 				//Que columnas son ordenables
                 "aoColumns": [
                   null,
-                  null,
+                  { "bSortable": false },
                   { "bSortable": false }
                 ],
-                
-				"aLengthMenu": [
-                    [5, -1],
-                    [5, "Todos"] // change per page values here
+                "aLengthMenu": [
+                    [5, 15, 20, -1],
+                    [5, 15, 20, "Todos"] // change per page values here
                 ],
                 // set the initial value
-                "iDisplayLength": -1,
+                "iDisplayLength": 20,
 				"sDom": "<'row'<'col-md-6'l><'col-md-6'f>r>t<'row'<'col-md-6'i><'col-md-6'p>>",
                 "sPaginationType": "bootstrap",
                 "oLanguage": {
-                    "sLengthMenu": "_MENU_ sponsors por página",
+                    "sLengthMenu": "_MENU_ Sponsors por página",
                     "oPaginate": {
                         "sPrevious": "Anterior",
                         "sNext": "Siguiente"
                     }
                 },
-				
             });
 
             jQuery('#tabla_sponsors .group-checkable').change(function () {
@@ -51,6 +49,32 @@ var TablaSponsors = function () {
 
             });
 			
+			$('#borrarsponsor').live('click', function (e) {
+				e.preventDefault();
+
+				if (confirm("Seguro que desea eliminar el sponsor y todos sus datos?") == false) {
+					return;
+				}
+				
+				var idlugar = $(this).attr("sponsor-id");
+				$.ajax({
+					type:"POST",
+					url: "borrarsponsor.php",
+					data:{id:idlugar}
+				}).done(function(msg){
+					if (msg == 0){
+						//alert("Lugar borrado.");
+					}else{
+						alert(msg);
+						location.reload();
+					}
+				});
+				
+				var nRow = $(this).parents('tr')[0];
+				oTable.fnDeleteRow(nRow);
+				
+				
+			});
 
             jQuery('#tabla_sponsors tbody tr .checkboxes').change(function(){
                  $(this).parents('tr').toggleClass("active");
@@ -58,7 +82,7 @@ var TablaSponsors = function () {
 
             jQuery('#tabla_sponsors_wrapper .dataTables_filter input').addClass("form-control input-medium"); // modify table search input
             jQuery('#tabla_sponsors_wrapper .dataTables_length select').addClass("form-control input-small"); // modify table per page dropdown
-            //jQuery('#tabla_sponsors_wrapper .dataTables_length select').select2(); // initialize select2 dropdown
+            //jQuery('#tabla_albums_wrapper .dataTables_length select').select2(); // initialize select2 dropdown
 
             
         }

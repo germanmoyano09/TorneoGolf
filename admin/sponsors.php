@@ -67,7 +67,7 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
                            </a>
                         </div>
                      </div>
-                     <table class="table table-striped table-bordered table-hover" id="tabla_lugares">
+                     <table class="table table-striped table-bordered table-hover" id="tabla_sponsors">
                         <thead>
                            <tr>
                               <th>Sponsor</th>
@@ -85,8 +85,8 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
 								?>
 									<tr class="odd gradeX">
 									  <td><?php echo $sponsor['nombre']; ?></td>
-									  <td><a href="editarlugar.php?id=<?php echo $sponsor['id'];?>">Editar</a></td>
-									  <td><a id="borrarlugar" sponsor-id="<?php echo $sponsor['id'];?>" href="#">Borrar</a></td>
+									  <td><a href="editarsponsor.php?id=<?php echo $sponsor['id'];?>">Editar</a></td>
+									  <td><a id="borrarsponsor" sponsor-id="<?php echo $sponsor['id'];?>" href="#">Borrar</a></td>
 								    </tr>
 								<?php 
 								}
@@ -107,7 +107,7 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
 							 <h4 class="modal-title">Agregar Sponsor</h4>
 						  </div>
 						  <!-- BEGIN FORM-->
-						  <form action="#" id="agregar_lugar" class="form-horizontal">
+						  <form action="#" id="agregar_sponsor" class="form-horizontal">
 						  <div class="modal-body">
 								<div class="form-body">
 								   <div class="alert alert-danger display-hide">
@@ -121,15 +121,15 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
 								   <div class="form-group">
 									  <label class="control-label col-md-4">Nombre<span class="required">* </span></label>
 									  <div class="col-md-8">
-										 <input type="text" name="nombrelugar" data-required="1" class="form-control"/>
+										 <input type="text" name="nombresponsor" data-required="1" class="form-control"/>
 									  </div>
 								   </div>
 								   <div class="form-group">
-									  <label class="control-label col-md-4">Imágen de Portada<span class="required">*</span></label>
+									  <label class="control-label col-md-4">Imágen <span class="required">*</span></label>
 									  <div class="col-md-8">
 										 <div class="fileupload fileupload-new" data-provides="fileupload">
-											<div class="fileupload-new thumbnail" style="width: 245px; height: 200px;">
-											   <img src="http://www.placehold.it/245x200/EFEFEF/AAAAAA" alt="" />
+											<div class="fileupload-new thumbnail" style="width: 370px; height: 180px;">
+											   <img src="http://www.placehold.it/370x197/EFEFEF/AAAAAA" alt="" />
 											</div>
 											<div class="fileupload-preview fileupload-exists thumbnail" style="max-width: 245px; max-height: 200px; line-height: 20px;"></div>
 											<div id="contenedor_imagen_upload">
@@ -144,7 +144,7 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
 									  </div>
 								   </div>
 								   <div class="form-group">
-									  <label class="col-md-3">&nbsp</label>
+									  <label class="col-md-3"></label>
 									  <div class="col-md-8">
 										<img id="ajaxloader" style="display:none;" src="assets/loaders/loader.gif"/>
 									  </div>
@@ -164,7 +164,7 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
 				  </div>
 				  <!-- FIN MODAL LUGAR -->
 				  <script type="text/javascript">
-					function enviarFormLugar(){
+					function enviarFormSponsor(){
 					  $('#ajaxloader').show();
 					  $('#btn_enviar').addClass('disabled');
 					  
@@ -175,7 +175,7 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
 					  var datosForm = new FormData();
 					  
 					  //Cargamos el nombre elegido
-					  datosForm.append('nombrelugar',$("#agregar_lugar input[name=nombrelugar]").val());
+					  datosForm.append('nombresponsor',$("#agregar_sponsor input[name=nombresponsor]").val());
 
 					  //Como no sabemos cuantos archivos subira el usuario, iteramos la variable y al
 					  //objeto de FormData con el metodo "append" le pasamos calve/valor, usamos el indice "i" para
@@ -190,7 +190,7 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
 					  datosForm.append('archivo',archivo[0]);
 					  
 					  $.ajax({
-						url:'agregarlugar.php', //Url a donde la enviaremos
+						url:'agregarsponsor.php', //Url a donde la enviaremos
 						type:'POST', //Metodo que usaremos
 						contentType:false, //Debe estar en false para que pase el objeto sin procesar
 						data:datosForm, //Le pasamos el objeto que creamos con los archivos
@@ -200,9 +200,9 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
 						if(msg==0){
 							$('#ajaxloader').hide();
 							$('#btn_enviar').removeClass('disabled');
-							$('.alert-success', $('#agregar_lugar')).show();//Muestra mensaje de lugar agregado
-							alert('Lugar agregado.');
-							$('#lugar').modal('hide')
+							$('.alert-success', $('#agregar_sponsor')).show();//Muestra mensaje de lugar agregado
+							alert('Sponsor agregado.');
+							$('#sponsor').modal('hide')
 							location.reload();
 						}else{
 							$('#ajaxloader').hide();
@@ -256,14 +256,14 @@ mysqli_query($conexion, "SET NAMES 'utf8'");
    <!-- END PAGE LEVEL PLUGINS -->
    <!-- BEGIN PAGE LEVEL SCRIPTS -->
    <script src="assets/scripts/app.js"></script>
-   <script src="assets/scripts/tabla-lugares.js"></script>
-   <script src="assets/scripts/form-validation-lugares.js"></script>  
+   <script src="assets/scripts/tabla-sponsors.js"></script>
+   <script src="assets/scripts/form-validation-sponsors.js"></script>  
    <script src="assets/scripts/form-components.js"></script>        
    <!-- END PAGE LEVEL SCRIPTS -->
    <script>
       jQuery(document).ready(function() {       
          App.init();
-         TablaLugares.init();
+         TablaSponsors.init();
          FormComponents.init();
          FormValidation.init();
       });
