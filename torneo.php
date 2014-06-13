@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>iLEVEL | responsive html5 template | themeforest | josweb</title>
+<title>Torneo Petrolero Solidario</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
@@ -102,9 +102,10 @@
 				<div class="span9 pad5">
 					
 					<div class="myslider">
-						<img src="img/large/index_slider1.jpg" alt="" >
-						<img src="img/large/index_slider2.jpg" alt="" >
-						<img src="img/large/index_slider3.jpg" alt="" >
+						<img src="img/torneo/slider1.jpg" alt="" >
+						<img src="img/torneo/slider2.jpg" alt="" >
+						<img src="img/torneo/slider3.jpg" alt="" >
+						<img src="img/torneo/slider4.jpg" alt="" >
 					</div>
 					
 					<h2><span>MODALIDAD DE JUEGO</span></h2>
