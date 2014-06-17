@@ -4,9 +4,15 @@
 <meta charset="utf-8">
 <title> Torneo Petrolero Solidario</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
-<meta name="author" content="">
+<meta name="description" content="Somos un grupo de amigos relacionados con la industria petrolera que hemos decidido organizar nuevamente un Torneo de Golf que se llama “TORNEO PETROLERO SOLIDARIO”">
+<meta name="author" content="German Moyano">
+<meta name="keywords" content="torneo, solidario, golf, bolivia, argentina, santa cruz, las, palmas, country, club, petroleo" />
+<meta name="robots" content="index, follow, noarchive" />
+<meta name="googlebot" content="index, follow" />
 
+<link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon" />
+	
 <link href='http://fonts.googleapis.com/css?family=Lato:400,700,300' rel='stylesheet' type='text/css'>
 <!--[if IE]>
 	<link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">

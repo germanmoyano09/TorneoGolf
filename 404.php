@@ -6,7 +6,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
-
+<link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon" />
 <link href='http://fonts.googleapis.com/css?family=Lato:400,700,300' rel='stylesheet' type='text/css'>
 <!--[if IE]>
 	<link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
@@ -61,10 +62,11 @@
 		<?php include_once("fijo/footer.php"); ?>
 	</div>	
 <!-- /footer -->	
-					<!-- up to top -->
-				<a href="#"><i class="go-top hidden-phone hidden-tablet  icon-double-angle-up"></i></a>
-				<!--//end--> 
-			</div>
+<!-- up to top -->
+	<a href="#"><i class="go-top hidden-phone hidden-tablet  icon-double-angle-up"></i></a>
+<!--//end--> 
+
+</div>
 			
 <!-- scripts -->
 <script src="js/jquery.js"></script>			
