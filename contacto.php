@@ -34,9 +34,12 @@
 								
 	<div class="container">
 		<div class="inner_content">
-			<h1 class="title">Get In Touch</h1>
-			<h1 class="intro">It's art if it can't be explained. It's <span class="mid">fashion</span> if no one asks for an <span>explanation.</span> 
+			<h1 class="title">Contacto</h1>
+			<h1 class="intro">Inscripciones abiertas los días jueves 1 y viernes 2 de octubre en la central telefónica de<span class="mid"> Las Palmas Country Club</span>  de 8:00 a 17:00 hrs.
+			<!--
+			It's art if it can't be explained. It's <span class="mid">fashion</span> if no one asks for an <span>explanation.</span> 
 			's <span class="colour">design</span> if it doesn't need explanation. - Wouter Stokkel</h1>
+			-->
 		</div>
 	</div>
 			
