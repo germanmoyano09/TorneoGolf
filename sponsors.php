@@ -55,7 +55,7 @@
 					
 			<div class="row">
 			<?php
-				$sql = "SELECT * FROM sponsor";
+				$sql = "SELECT * FROM sponsor ORDER BY nombre";
 				$consulta = mysqli_query($conexion, $sql);
 				$error = "";
 				if($consulta){
