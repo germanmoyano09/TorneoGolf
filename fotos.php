@@ -64,9 +64,9 @@
 					echo $error;
 				}
 			?>
-				
+			<!--	
 			<h1 class="intro">Web design is the creation of or adapt to individual voices and content. - Jeffrey Zeldman</h1>
-		
+			-->
 			<div class="holder"></div>
 			<!-- YOU CAN CHANGE THE AMOUNT OF IMAGES PER PAGE AT THE FOOT OF THIS PAGE - SEE COMMENTED CODE - SET NUMBER OF IMAGES PER PAGE -->
       
@@ -119,7 +119,9 @@
 	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
+	<!--
 	<script src="js/functions.js" type="text/javascript"></script>
+	-->
 	<script src="js/jPages.js"></script>
 
 	<!-- /* SET NUMBER OF IMAGES PER PAGE */ -->
@@ -129,7 +131,7 @@
 	$("#itemContainer").show();
 	   $("div.holder").jPages({
 			containerID  : "itemContainer",
-			perPage      : 40,
+			perPage      : 24,
 			keyBrowse   : true
 		});
 	});
