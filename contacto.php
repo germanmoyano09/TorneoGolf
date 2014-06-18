@@ -58,40 +58,38 @@
 		<div class="inner_content">
 			<div class="row">
 				<div class="span4">
-					<h3>Do you need a website, have a question or comment?</h3> 
-					<p>Please feel free to send us an email or fill in our handy contact form. We aim to reply within 24 hours.</p>
+					<h3> Necesita más información? </h3> 
+					<p> Por favor complete el formulario con todos sus datos y le responderemos sus dudas lo antes posible!</p>
 					
 					<p>
-						<b>Contact Information</b><br>
-						iLevel Studios<br>
-						23 Mornington Crescent,<br>
-						Camden High Street,<br>
-						London<br>
-						NW1 7JE
+						<b>Información de Contacto</b><br>
+						Torneo Petrolero Solidario<br>
+						Direccion:  ,<br>
+						Santa Cruz<br>
+						Bolivia
 					</p>
 					
 					<ul class="icons">
-						<li><i class="icon-envelope colour"></i> <a href="mailto:#">name@example.com</a></li>
+						<li><i class="icon-envelope colour"></i> <a href="mailto:#">correo@example.com</a></li>
 						<li><i class="icon-phone colour"></i> +44 020 2345 1987</li>
-						<li><i class="icon-globe colour"></i> <a href="#">www.example.com</a></li>
-						<li><i class="icon-linkedin colour"></i> <a href="mailto:#">name@example.com</a></li>
+						
 					</ul>
 				</div>
 		
 				<div class="span8 ">
 					<div class="contact_form">  
 						<form id="ajax-contact-form">
-							<p class="form_info">name <span class="required">*</span></p>
+							<p class="form_info">nombre <span class="required">*</span></p>
 							<input class="span5" type="text" name="name" value="" />
-							<p class="form_info">email <span class="required">*</span></p>
+							<p class="form_info">correo <span class="required">*</span></p>
 							<input class="span5" type="text" name="email" value=""  />
-							<p class="form_info">subject</p>
+							<p class="form_info">asunto</p>
 							<input class="span5" type="text" name="subject" value="" /><br>
-							<p class="form_info">message</p>
+							<p class="form_info">mensaje</p>
 							<textarea name="message" id="message" class="span8" ></textarea>
 							<div class="clear"></div>
-							<input type="submit" class="btn  btn-large btn-primary marg-right5 hue" value="submit" />
-							<input type="reset"  class="btn   btn-large btn-primary" value="reset" />
+							<input type="submit" class="btn  btn-large btn-primary marg-right5 hue" value="Enviar" />
+							<input type="reset"  class="btn   btn-large btn-primary" value="Limpiar" />
 							<div class="clear"></div>
 						</form>
 					</div>
