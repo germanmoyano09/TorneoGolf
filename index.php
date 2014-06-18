@@ -45,7 +45,6 @@
 	<link rel="stylesheet" href="countdown/css/bootstrap-theme.css" type="text/css" media="screen"> 
 	<link rel="stylesheet" href="countdown/css/layout.css" type="text/css" media="screen"> 
 	<link rel="stylesheet" href="countdown/css/background.css" type="text/css" media="screen">
-	
 <!-- /COUNTDOWN -->
 
 </head>
@@ -119,10 +118,13 @@
 	<script src="js/jquery.js"></script>			
 	<script src="js/bootstrap.min.js"></script>	
 	<script type="text/javascript" src="js/scripts.js"></script>
+	<!--
 	<script src="js/functions.js" type="text/javascript"></script>
+	-->
 	<script src="js/jquery.content_slider.min.js" type="text/javascript"></script>
 	
-	<!-- nerve slider -->
+	
+	<!-- SLIDER -->
 	<script src="js/jquery-ui.min.js"></script>
 	<script type="text/javascript" src="js/jquery.nerveSlider.min.js"></script>
 	<script>
@@ -139,16 +141,16 @@
 		});
 	//]]>
 	</script>
+	<!-- /SLIDER -->
 	
 	<!-- js COUNTDOWN -->
-	
-	<!--<script type="text/javascript" src="countdown/js/jquery-1-8-3.min.js"></script>-->
-	<script type="text/javascript" src="countdown/js/jquery.countdown.js" charset="utf-8"></script>
-	<script type="text/javascript" src="countdown/js/countdown.js" charset="utf-8"></script>
-	<script type="text/javascript" src="countdown/js/supersized.3.2.7.js" charset="utf-8"></script>
-	<script type="text/javascript" src="countdown/js/images.js" charset="utf-8"></script>
-	<script type="text/javascript" src="countdown/js/form.js" charset="utf-8"></script>
-	<script type="text/javascript" src="countdown/js/cssloader.js" charset="utf-8"></script>
+		<!--<script type="text/javascript" src="countdown/js/jquery-1-8-3.min.js"></script>-->
+		<script type="text/javascript" src="countdown/js/jquery.countdown.js" charset="utf-8"></script>
+		<script type="text/javascript" src="countdown/js/countdown.js" charset="utf-8"></script>
+		<script type="text/javascript" src="countdown/js/supersized.3.2.7.js" charset="utf-8"></script>
+		<script type="text/javascript" src="countdown/js/images.js" charset="utf-8"></script>
+		<script type="text/javascript" src="countdown/js/form.js" charset="utf-8"></script>
+		<script type="text/javascript" src="countdown/js/cssloader.js" charset="utf-8"></script>
 	<!-- /js COUNTDOWN -->
 		
 </body>
