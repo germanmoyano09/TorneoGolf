@@ -39,10 +39,10 @@
 	<!--page-->
 	<div class="container">
 		<div class="inner_content">
-			<h1 class="title">Torne Petrolero Solidario 2014</h1>
+			<h1 class="title">Torneo Petrolero Solidario 2014</h1>
 			<h2 class="intro">
 				Inscripciones abiertas los días jueves 3 y viernes 4 de Octubre en la central telefónica de Las Palmas Country Club de 8:00 a 17:00 hrs.
-				<br>El costo es de Bs. 300.- Adicionalmente se debe cancelar u$s 40.- como Green Fee por los dos días para todos los jugadores no socios de Las Palmas Country Club.
+				<br>
 			</h2>
 				
 			<!-- sidebar -->
