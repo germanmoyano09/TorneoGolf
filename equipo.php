@@ -98,45 +98,9 @@
 <script src="js/jquery.js"></script>			
 <script src="js/bootstrap.min.js"></script>	
 <script type="text/javascript" src="js/scripts.js"></script>
-<script src="js/functions.js" type="text/javascript"></script>
+<!--  <script src="js/functions.js" type="text/javascript"></script>  -->
 <script src="js/jquery.content_slider.min.js" type="text/javascript"></script>
 <script src="js/additional_content.js" type="text/javascript"></script>
-
-<!-- circle slider ADD YOUR IMAGES HERE -->
-<script type="text/javascript">
-//<![CDATA[
-	(function($){
-		$(document).ready(function() {
-			var image_array = new Array();
-			image_array = [
-				{image: 'img/team/1.jpg', link_url: 'img/team/1_big.jpg', link_rel: 'prettyPhoto'},
-				{image: 'img/team/2.jpg', link_url: 'img/team/2_big.jpg', link_rel: 'prettyPhoto'},
-				{image: 'img/team/3.jpg', link_url: 'img/team/3_big.jpg', link_rel: 'prettyPhoto'},
-				{image: 'img/team/4.jpg', link_url: 'img/team/4_big.jpg', link_rel: 'prettyPhoto'},
-				{image: 'img/team/5.jpg', link_url: 'img/team/5_big.jpg', link_rel: 'prettyPhoto'},
-				{image: 'img/team/6.jpg', link_url: 'img/team/6_big.jpg', link_rel: 'prettyPhoto'}
-			];
-			$('#slider1').content_slider({		
-				map : image_array,				
-				max_shown_items:5,				// number of visible circles
-				hv_switch: 0,					
-				active_item: 0,					
-				wrapper_text_max_height: 450,	
-				middle_click: 1,				
-				under_600_max_height: 1200,		
-				border_radius:	-1,				
-				automatic_height_resize: 1,
-				border_on_off: 0,
-				allow_shadow: 0,
-				enable_mousewheel:0});
-				$("a[rel^='prettyPhoto']").prettyPhoto();
-			jQuery("a[rel^='prettyPhoto'], a[rel^='lightbox']").prettyPhoto({
-			overlay_gallery: false, social_tools: false,  deeplinking: false
-			});
-		});
-	})(jQuery);
-	//]]>
-</script>
 
 </body>
 </html>
