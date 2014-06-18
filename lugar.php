@@ -46,12 +46,14 @@
 			</h1>
 		</div>
 	</div>
-			
+			<!-- CIRCLE IMAGE -->
+	<!--
 	<div id="container-id"  class="strip">
-		<!-- CIRCLE IMAGE -->
 		<img title="preset: 'bubble-1'" src="img/lugar/slider.jpg" alt=""/> 
 	</div>
-			
+	-->		
+	<img src="img/lugar/slider.jpg" alt=""/> 
+	
 	<div class="container">
 		<div class="inner_content">
 			
