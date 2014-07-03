@@ -46,7 +46,7 @@
 	<!--page-->
 	<div class="container">
 		<div class="inner_content">
-			<h1 class="title">Nuestros Auspiciantes</h1>
+			<h1 class="title">Nuestros Sponsors</h1>
 			<h1 class="intro">
 				El <span>Torneo Petrolero Solidario </span> cuenta con el auspicio de todas las Empresas Petroleras de Servicio, así
 				como las Operadoras y Empresas Amigas quienes colaboran con nuestro emprendimiento de forma totalmente Solidaria y con
@@ -55,18 +55,18 @@
 					
 			<div class="row">
 			<?php
-				$sql = "SELECT * FROM sponsor ORDER BY nombre";
+				$sql = "SELECT * FROM sponsor ORDER BY posicion";
 				$consulta = mysqli_query($conexion, $sql);
 				$error = "";
 				if($consulta){
 					while($sponsor = mysqli_fetch_array($consulta)){
 						?>
-							<div class="span4">
-								<h2><?php echo $sponsor['nombre'] ?> </h2>
+							<div class="span2">
+								 <!-- <h3><?php //echo $sponsor['nombre'] ?> </h3> -->
 								<div class="pad15"></div>
-								<div data-zlname="hover">
+								<!-- <div data-zlname="hover"> -->
 									<img src="img/sponsors/<?php echo $sponsor['imagen'] ?>" alt="" />
-								</div>
+								<!-- </div> -->
 								<div class="pad25"></div>
 							</div> 
 						<?php
