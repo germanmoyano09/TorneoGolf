@@ -46,11 +46,18 @@
 	<!--page-->
 	<div class="container">
 		<div class="inner_content">
-			<h1 class="title">Nuestros Sponsors</h1>
+			<h1 class="title">Nuestros Auspiciadores</h1>
 			<h1 class="intro">
+				Nuestros auspiciadores son todas las empresas petroleras de servicios, así como las operadoras y empresas amigas, las que colaboran de forma absolutamente
+				solidaria y con un gran desprendimiento.
+				<br>
+				Por ello, les hacemos llegar un agradecimiento especial, pues sin su apoyo no hubiésemos alcanzado las metas propuestas.
+
+				<!--
 				El <span>Torneo Petrolero Solidario </span> cuenta con el auspicio de todas las Empresas Petroleras de Servicio, así
 				como las Operadoras y Empresas Amigas quienes colaboran con nuestro emprendimiento de forma totalmente Solidaria y con
 				un gran desprendimiento, hacemos llegar a todos ellos un gran saludo y un gran agradecimiento.
+				-->
 			</h1>
 					
 			<div class="row">
