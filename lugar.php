@@ -39,9 +39,12 @@
 		<div class="inner_content">
 			<h1 class="title">Las Palmas Country Club </h1>
 			<h1 class="intro">
-			El <span>Torneo Petrolero Solidario</span> tendrá como sede Las Palmas Country Club, el cual fue elegido como sede durante las tres últimas 
+			El <span>Torneo Petrolero Solidario</span> se lleva a cabo en las instalaciones del Country Club Las Palmas, institución que nos facilita sus espacios y nos apoya
+			en la organización de esta competencia.
+			<!--
+			tendrá como sede Las Palmas Country Club, el cual fue elegido como sede durante las tres últimas 
 			competencias debido a su amplitud y comodidades las cuales permiten que el juego pueda desarrollarse de manera adecuada.
-						
+				-->		
 			 
 			</h1>
 		</div>
