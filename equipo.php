@@ -58,9 +58,9 @@
 				<div class="span12">
 					<h1 class="intro">Historia</h1>
 					<h2 style="text-align:justify;">
-						Hace más o menos 10 años atrás se inició con la organización anual de un Torneo Petrolero de Golf con mucho éxito, con jugadores
-						y no jugadores muy entusiastas y, donde participaban todas las Empresas Petroleras, tanto Operadoras como Compañías de Servicio, 
-						luego por razones ajenas este Torneo dejo de llevarse a cabo.
+						Hace más o menos 10 años iniciamos la disputa anual del Torneo Petrolero de Golf. Entusiasmo fue lo que sobró entre los jugadores y no jugadores que 
+						siguieron esta actividad, en la cual participaban todas las empresas petroleras, tanto operadoras como de servicios. Sin embargo, y pese al éxito, este 
+						torneo dejó de realizarse.
 					</h2>
 	
 					<div class="pad25"></div>
@@ -69,14 +69,29 @@
 				<div class="span12">
 					<h1 class="intro">Nuestro Compromiso</h1>
 					<h2 style="text-align:justify;">
-						Después de algunos años de ausencia, algunas empresas, personas y amigos relacionados con la industria petrolera hemos decidido organizar nuevamente un Torneo de Golf que se llama “TORNEO PETROLERO SOLIDARIO”, con el fin compartir durante dos días entre golfistas aficionados y al mismo tiempo de beneficiar a instituciones que necesitan de un apoyo, de esta manera iniciamos nuestras obras el año 2011 con la organización del primer Torneo Petrolero Solidario para ayudar a un colega de trabajo que estaba inmerso en una tremenda lucha contra la enfermedad del Cancer de uno de sus hijos, lucha que gracias a Dios fue superada.
+						Después de algunos años de ausencia, algunas empresas, personas y amigos relacionados con la industria petrolera, decidimos  organizar nuevamente un 
+						Torneo de Golf, al cual denominamos “TORNEO PETROLERO SOLIDARIO”.
 						<br><br>
-						El siguiente año 2012 el Centro de Paralisis Cerebral fue nuestra institución beneficiada, esta institución pasaba por una situación económica muy crítica, visitamos vimos el gran trabajo que hacen quienes dirigen dicho Centro y llegamos a ellos con un granito de arena que sirvió para sostener y pasar el momento critico.
+						La iniciativa arrancó en 2011 y el objetivo era reunirnos durante dos días entre amigos y golfistas aficionados y apasionados, pero con objetivo 
+						diferente: beneficiar a instituciones o personas que necesitan apoyo. El primer año, lo recaudado en los dos días de competencia fue destinado a
+						ayudar al hijo de un colega de trabajo, quien por esa entonces luchaba contra el cáncer. Este joven, gracias a Dios  pudo recuperar la salud.
 						<br><br>
-						Año 2013, nuestra mirada fue hacia la Fundación  Síndrome de Down (FUSINDO), quienes necesitaban ayuda para hacer mejoras en la infraestructura de su sede, fue una experiencia hermosa el compartir con personas tan especiales y con tanto amor como son los niños de FUSIDO y también compartir con las Sras quienes administran esta gran institución.
+						FOOOTOOOO
 						<br><br>
-						Seguiremos caminando por esta misma senda y continuaremos apoyando a quien lo necesite.
-
+						Al año siguiente, en 2012, el destinatario del apoyo fue el Centro de Parálisis Cerebral, una institución que enfrentaba serios problemas económicos 
+						y que estuvo a punto de cerrarse por la falta de recursos económicos. Esto hubiese significado dejar sin apoyo a más de cien menores, en su mayoría de
+						escasos recursos, que no tienen otra forma de asistir a rehabilitación. Lo recaudado en las dos jornadas se sumó al apoyo de la población y hoy este
+						centro continúa funcionando.
+						<br><br>
+						FOOOTOOOO
+						<br><br>
+						En 2013, nuestra mirada fue hacia la Fundación  Síndrome de Down (FUSINDO), cuyos integrantes  necesitaban ayuda para hacer mejoras en su sede. El objetivo 
+						se logró y nosotros ganamos una experiencia hermosa el compartir con personas tan especiales y con tanto amor como son los niños con Síndrome de Down, a
+						lo que se sumó el privilegio de compartir con las señoras que administran esa institución.
+						<br><br>
+						FOOOTOOOO
+						<br><br>
+						Nuestro objetivo es continuar por la misma senda y seguir apoyando a quienes más lo necesitan.
 					</h2>
 					<div class="pad25"></div>
 				</div>
