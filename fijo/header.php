@@ -100,13 +100,13 @@
 											if($titulo === "sponsors"){
 												echo '
 												<li class="dropdown active">
-													<a  href="sponsors.php">Sponsors</a>
+													<a  href="sponsors.php">Auspiciadores</a>
 												</li>
 												';
 											}else{
 												echo'
 												<li>
-													<a href="sponsors.php">Sponsors</a>
+													<a href="sponsors.php">Auspiciadores</a>
 												</li>
 												';
 											}
