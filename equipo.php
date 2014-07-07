@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 <meta charset="utf-8">
-<title>Torneo Petrolero Solidario - Quienes Somos</title>
+<title>Torneo Petrolero Solidario - Equipo </title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
@@ -56,7 +56,7 @@
 			
 			<div class="row"><div class="pad25"></div>
 				<div class="span12">
-					<h1 class="intro">Historia</h1>
+					<h1 class="intro" style="margin-bottom: 20px;">Historia</h1>
 					<h2 style="text-align:justify;">
 						Hace más o menos 10 años iniciamos la disputa anual del Torneo Petrolero de Golf. Entusiasmo fue lo que sobró entre los jugadores y no jugadores que 
 						siguieron esta actividad, en la cual participaban todas las empresas petroleras, tanto operadoras como de servicios. Sin embargo, y pese al éxito, este 
@@ -65,36 +65,47 @@
 	
 					<div class="pad25"></div>
 				</div>
-						
-				<div class="span12">
-					<h1 class="intro">Nuestro Compromiso</h1>
-					<h2 style="text-align:justify;">
-						Después de algunos años de ausencia, algunas empresas, personas y amigos relacionados con la industria petrolera, decidimos  organizar nuevamente un 
-						Torneo de Golf, al cual denominamos “TORNEO PETROLERO SOLIDARIO”.
-						<br><br>
-						La iniciativa arrancó en 2011 y el objetivo era reunirnos durante dos días entre amigos y golfistas aficionados y apasionados, pero con objetivo 
-						diferente: beneficiar a instituciones o personas que necesitan apoyo. El primer año, lo recaudado en los dos días de competencia fue destinado a
-						ayudar al hijo de un colega de trabajo, quien por esa entonces luchaba contra el cáncer. Este joven, gracias a Dios  pudo recuperar la salud.
-						<br><br>
-						FOOOTOOOO
-						<br><br>
-						Al año siguiente, en 2012, el destinatario del apoyo fue el Centro de Parálisis Cerebral, una institución que enfrentaba serios problemas económicos 
-						y que estuvo a punto de cerrarse por la falta de recursos económicos. Esto hubiese significado dejar sin apoyo a más de cien menores, en su mayoría de
-						escasos recursos, que no tienen otra forma de asistir a rehabilitación. Lo recaudado en las dos jornadas se sumó al apoyo de la población y hoy este
-						centro continúa funcionando.
-						<br><br>
-						FOOOTOOOO
-						<br><br>
-						En 2013, nuestra mirada fue hacia la Fundación  Síndrome de Down (FUSINDO), cuyos integrantes  necesitaban ayuda para hacer mejoras en su sede. El objetivo 
-						se logró y nosotros ganamos una experiencia hermosa el compartir con personas tan especiales y con tanto amor como son los niños con Síndrome de Down, a
-						lo que se sumó el privilegio de compartir con las señoras que administran esa institución.
-						<br><br>
-						FOOOTOOOO
-						<br><br>
-						Nuestro objetivo es continuar por la misma senda y seguir apoyando a quienes más lo necesitan.
-					</h2>
-					<div class="pad25"></div>
-				</div>
+				<h2 style="text-align:justify;">		
+					<div class="span12">
+						<h1 class="intro" style="margin-bottom: 20px;" >Nuestro Compromiso</h1>
+							<div class="span4" style="margin-left: 0px;">
+								Después de algunos años de ausencia, algunas empresas, personas y amigos relacionados con la industria petrolera, decidimos  organizar nuevamente un 
+								Torneo de Golf, al cual denominamos “TORNEO PETROLERO SOLIDARIO”.
+								<br>
+								La iniciativa arrancó en 2011 y el objetivo era reunirnos durante dos días entre amigos y golfistas aficionados y apasionados, pero con objetivo 
+								diferente: beneficiar a instituciones o personas que necesitan apoyo. El primer año, lo recaudado en los dos días de competencia fue destinado a
+								ayudar al hijo de un colega de trabajo, quien por ese entonces luchaba contra el cáncer. Este joven, gracias a Dios  pudo recuperar la salud.
+								<br><br>
+							</div>
+							<div class="span8">
+								<img  src="img/quienesSomos/team.jpg" alt="" /> 
+								<br><br>
+							</div>	
+					</div>
+					<div class="span12">
+						<div class="span8" style="margin-left: 0px;">
+							<img  src="img/quienesSomos/team.jpg" alt="" /> 
+							<br><br>
+						</div>
+						<div class="span4" >
+							Al año siguiente, en 2012, el destinatario del apoyo fue el Centro de Parálisis Cerebral, una institución que enfrentaba serios problemas económicos 
+							y que estuvo a punto de cerrarse por la falta de recursos económicos. Esto hubiese significado dejar sin apoyo a más de cien menores, en su mayoría de
+							escasos recursos, que no tienen otra forma de asistir a rehabilitación. Lo recaudado en las dos jornadas se sumó al apoyo de la población y hoy este
+							centro continúa funcionando.
+						</div>
+					</div>
+					<div class="span12">
+							En 2013, nuestra mirada fue hacia la Fundación  Síndrome de Down (FUSINDO), cuyos integrantes  necesitaban ayuda para hacer mejoras en su sede. El objetivo 
+							se logró y nosotros ganamos una experiencia hermosa el compartir con personas tan especiales y con tanto amor como son los niños con Síndrome de Down, a
+							lo que se sumó el privilegio de compartir con las señoras que administran esa institución.
+							<br><br>
+							<img  src="img/quienesSomos/team.jpg" alt="" />
+							<br><br>
+							Nuestro objetivo es continuar por la misma senda y seguir apoyando a quienes más lo necesitan.
+					</div>
+				</h2>
+				<div class="pad25"></div>
+				
 			</div>
 		</div>
 	</div>
