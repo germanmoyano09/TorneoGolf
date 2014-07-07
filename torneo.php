@@ -52,14 +52,14 @@
 					<p>4 DE OCTUBRE</p>
 					<ul class="icons">
 						<li><i class="icon-ok colour"></i> Salidas de 7:00 a 13:00 hrs. Según inscripción y horarios disponibles.</li>
-						<li><i class="icon-ok colour"></i> Premios: 1° / 2° / 3° puesto en cada categoría.</li>
+						<li><i class="icon-ok colour"></i> Premios: 1° / 2° puesto en cada categoría.</li>
 					</ul>
 					<div class="pad15"></div>
 					
 					<p>5 DE OCTUBRE</p>
 					<ul class="icons">
 						<li><i class="icon-ok colour"></i> Salidas simultáneas 8:00hrs.</li>
-						<li><i class="icon-ok colour"></i> Premios: 1° / 2° / 3° puesto por pareja.</li>
+						<li><i class="icon-ok colour"></i> Premios: 1° / 2° puesto por pareja.</li>
 					</ul>
 					
 					<div class="pad15"></div>
@@ -94,11 +94,7 @@
 					En caso de empate en cualquier puesto
 					se considerará los mejores
 					últimos 9 hoyos (10-18), el último hoyo, etc.
-					EL PRIMER HOYO EN UNO AUSPICIADO POR:
-					CROWN LTDA: UN AUTO
-
-					
-					
+										
 				</div>
 					
 				<div class="span9 pad5">
