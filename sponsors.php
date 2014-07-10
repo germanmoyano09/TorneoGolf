@@ -47,7 +47,7 @@
 	<div class="container">
 		<div class="inner_content">
 			<h1 class="title">Nuestros Auspiciadores</h1>
-			<h1 class="intro">
+			<h1 class="intro" style="text-align:justify;">
 				Nuestros auspiciadores son todas las empresas petroleras de servicios, así como las operadoras y empresas amigas, las que colaboran de forma absolutamente
 				solidaria y con un gran desprendimiento.
 				<br>
@@ -84,6 +84,11 @@
 				}
 			?>
 			</div>
+			<h1 class="intro" style="text-align:justify;">
+				Durante el año 2012 nos acompañaron las siguientes empresas:
+			</h1>
+			<img src="img/sponsors/2012.png" alt="" />
+			
 		</div>
 	</div>	
 				
