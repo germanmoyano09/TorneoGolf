@@ -78,13 +78,13 @@
 								<br><br>
 							</div>
 							<div class="span8">
-								<img  src="img/quienesSomos/team.jpg" alt="" /> 
+								<img  src="img/quienesSomos/2011.jpg" alt="" /> 
 								<br><br>
 							</div>	
 					</div>
 					<div class="span12">
 						<div class="span8" style="margin-left: 0px;">
-							<img  src="img/quienesSomos/team.jpg" alt="" /> 
+							<img  src="img/quienesSomos/2012_centro_paralisis.jpg" alt="" /> 
 							<br><br>
 						</div>
 						<div class="span4" >
@@ -95,13 +95,17 @@
 						</div>
 					</div>
 					<div class="span12">
-							En 2013, nuestra mirada fue hacia la Fundación  Síndrome de Down (FUSINDO), cuyos integrantes  necesitaban ayuda para hacer mejoras en su sede. El objetivo 
-							se logró y nosotros ganamos una experiencia hermosa el compartir con personas tan especiales y con tanto amor como son los niños con Síndrome de Down, a
-							lo que se sumó el privilegio de compartir con las señoras que administran esa institución.
-							<br><br>
-							<img  src="img/quienesSomos/team.jpg" alt="" />
-							<br><br>
-							Nuestro objetivo es continuar por la misma senda y seguir apoyando a quienes más lo necesitan.
+							<div class="span4" style="margin-left: 0px;">
+								En 2013, nuestra mirada fue hacia la Fundación  Síndrome de Down (FUSINDO), cuyos integrantes  necesitaban ayuda para hacer mejoras en su sede. El objetivo 
+								se logró y nosotros ganamos una experiencia hermosa el compartir con personas tan especiales y con tanto amor como son los niños con Síndrome de Down, a
+								lo que se sumó el privilegio de compartir con las señoras que administran esa institución.
+								<br><br>
+								Nuestro objetivo es continuar por la misma senda y seguir apoyando a quienes más lo necesitan.
+							</div>	
+							<div class="span8">
+								<img  src="img/quienesSomos/2013_fusindo.jpg" alt="" /> 
+								<br><br>
+							</div>	
 					</div>
 				</h2>
 				<div class="pad25"></div>
