@@ -89,15 +89,15 @@
 					<b>PREMIOS ESPECIALES</b>
 					<p>BEST APPROACH:</p>
 					<ul class="icons">
-						<li><i class="icon-ok colour"></i> Sábado 4: hoyo 2</li>
+						<li><i class="icon-ok colour"></i> Sábado 4: hoyo 4</li>
 						<li><i class="icon-ok colour"></i> Domingo 5: hoyo 11</li>
 					</ul>
 					<div class="pad15"></div>
 					
 					<p>LONG DRIVE:</p>
 					<ul class="icons">
-						<li><i class="icon-ok colour"></i> Sábado 4: hoyo 4</li>
-						<li><i class="icon-ok colour"></i> Domingo 5: hoyo 8</li>
+						<li><i class="icon-ok colour"></i> Sábado 4: hoyo 6</li>
+						<li><i class="icon-ok colour"></i> Domingo 5: hoyo 3</li>
 					</ul>
 					<br>
 					Sólo se podrá ganar un premio individual por jugador.
@@ -132,6 +132,7 @@
 							<br>Tercera A: 19-24 de hándicap
 							<br>Tercera B: 25-36 de hándicap
 							<br>Seniors con Handicap
+							<br>Damas con Handicap
 						</p>
 					</div>
 					
