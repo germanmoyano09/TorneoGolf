@@ -31,6 +31,10 @@
 <link href="css/theme.css" rel="stylesheet">
 <link href="css/prettyPhoto.css" rel="stylesheet" type="text/css"/>
 <script src="js/modernizr.custom.js"></script>
+
+<link href="css/zocial.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="css/nerveslider.css">
+
 <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
@@ -61,9 +65,7 @@
 			<img  src="img/quienesSomos/team.jpg" alt="" /> 
 			<div class="pad10"></div>
 			<div class="clear"></div>
-				
-		
-			
+						
 			<div class="row"><div class="pad25"></div>
 				<div class="span12">
 					<h1 class="intro" style="margin-bottom: 20px;">Historia</h1>
@@ -87,10 +89,19 @@
 								ayudar al hijo de un colega de trabajo, quien por ese entonces luchaba contra el cáncer. Este joven, gracias a Dios  pudo recuperar la salud.
 								<br><br>
 							</div>
+							<!--
 							<div class="span8">
 								<img  src="img/quienesSomos/2011.jpg" alt="" /> 
 								<br><br>
 							</div>	
+							-->
+							<div class="span8">
+								<div class="myslider2">
+									<img src="img/quienesSomos/2011_1.jpg" alt="" >
+									<img src="img/quienesSomos/2011_2.jpg" alt="" >
+								</div>
+							</div>	
+							
 					</div>
 					<div class="span12">
 						<div class="span8" style="margin-left: 0px;">
@@ -112,10 +123,20 @@
 								<br><br>
 								Nuestro objetivo es continuar por la misma senda y seguir apoyando a quienes más lo necesitan.
 							</div>	
+							<!--
 							<div class="span8">
 								<img  src="img/quienesSomos/2013_fusindo.jpg" alt="" /> 
 								<br><br>
-							</div>	
+							</div>
+							-->
+							<div class="span8">
+								<div class="myslider2">
+									<img src="img/quienesSomos/2013_1.jpg" alt="" >
+									<img src="img/quienesSomos/2013_2.jpg" alt="" >
+									<img src="img/quienesSomos/2013_3.jpg" alt="" >
+									<img src="img/quienesSomos/2013_4.jpg" alt="" >
+								</div>
+							</div>								
 					</div>
 				</h2>
 				<div class="pad25"></div>
@@ -141,6 +162,29 @@
 <!--  <script src="js/functions.js" type="text/javascript"></script>  -->
 <script src="js/jquery.content_slider.min.js" type="text/javascript"></script>
 <script src="js/additional_content.js" type="text/javascript"></script>
+
+
+<script src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/jquery.nerveSlider.min.js"></script>
+
+
+
+<script>
+	//<![CDATA[
+	$(document).ready(function() {
+	$(".myslider2").show();
+	$(".myslider2").startslider({
+	sliderWidth:770,
+	sliderHeight:513,
+		slideTransitionSpeed: 500,
+		slideTransitionEasing: "easeOutExpo",
+		slidesDraggable: true,
+		sliderResizable: true
+		});
+		});
+		//]]>
+	</script>
+
 
 </body>
 </html>
