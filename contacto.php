@@ -48,22 +48,18 @@
 		<div class="inner_content">
 			<h1 class="title">Contacto</h1>
 			<h1 class="intro">Inscripciones abiertas los días jueves 1 y viernes 2 de octubre en la central telefónica de<span class="mid"> Las Palmas Country Club</span>  de 8:00 a 17:00 hrs.
-			<!--
-			It's art if it can't be explained. It's <span class="mid">fashion</span> if no one asks for an <span>explanation.</span> 
-			's <span class="colour">design</span> if it doesn't need explanation. - Wouter Stokkel</h1>
-			-->
 		</div>
 	</div>
 			
-	<!--//GOOGLE MAP -ADD YOUR EMBED INFO HERE-->
+	<!--//GOOGLE MAP -ADD YOUR EMBED INFO HERE
 	<div id="map">
-	<!--
-	<iframe src="https://mapsengine.google.com/map/embed?mid=zd1V8b2O47FA.kL8KgwO_eHxU" scrolling="no"></iframe>
-	-->
-	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7597.577273133003!2d-63.21002224075317!3d-17.80162803668827!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93f1c29f5a823f5f%3A0x2dacab18d8054d47!2sCountry+Club+Las+Palmas!5e0!3m2!1ses-419!2s!4v1398402771319" frameborder="0" scrolling="no" style="border:0" ></iframe>	
-	
+		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7597.577273133003!2d-63.21002224075317!3d-17.80162803668827!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93f1c29f5a823f5f%3A0x2dacab18d8054d47!2sCountry+Club+Las+Palmas!5e0!3m2!1ses-419!2s!4v1398402771319" frameborder="0" scrolling="no" style="border:0" ></iframe>	
 	</div>
-			
+	-->		
+	<div id="map" style="text-align: center;">
+		<img src="img/contacto/torneo_contacto.png" >
+	</div>
+	
 	<div class="container">
 		<div class="inner_content">
 			<div class="row">
