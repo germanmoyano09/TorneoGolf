@@ -140,7 +140,7 @@
 	$("#itemContainer").show();
 	   $("div.holder").jPages({
 			containerID  : "itemContainer",
-			perPage      : 24,
+			perPage      : 44,
 			keyBrowse   : true
 		});
 	});
