@@ -70,29 +70,41 @@
 					<p>
 						<b>Información de Contacto</b><br>
 						Torneo Petrolero Solidario<br>
-						Direccion:  ,<br>
 						Santa Cruz<br>
 						Bolivia
 					</p>
 					
 					<ul class="icons">
-						<li><i class="icon-envelope colour"></i> <a href="mailto:#">correo@example.com</a></li>
-						<li><i class="icon-phone colour"></i> +44 020 2345 1987</li>
-						
+						<li><i class="icon-envelope colour"></i> <a href="mailto:#">comiteorganizadortps@gmail.com</a></li>
+						<!-- <li><i class="icon-phone colour"></i> +44 020 2345 1987</li> -->
 					</ul>
+					<br>
+					<br>
+					<span class="mid">
+					<?php
+						if (isset($_GET['ok'])){
+							?>
+							<script>
+								alert("Tu mensaje fue enviado satisfactoriamente. Muchas gracias!");
+							</script>
+							<?php
+							echo "¡Gracias por tu mensaje! Nos pondremos en contacto lo antes posible.";
+						}
+					?>
+					</span>  
 				</div>
 		
 				<div class="span8 ">
 					<div class="contact_form">  
-						<form id="ajax-contact-form">
+						<form id="contacto" action="php/contacto.php" METHOD="POST">
 							<p class="form_info">nombre <span class="required">*</span></p>
-							<input class="span5" type="text" name="name" value="" />
+								<input class="span5" type="text" name="name" value="" required/>
 							<p class="form_info">correo <span class="required">*</span></p>
-							<input class="span5" type="text" name="email" value=""  />
+								<input class="span5" type="text" name="email" value="" required />
 							<p class="form_info">asunto</p>
-							<input class="span5" type="text" name="subject" value="" /><br>
+								<input class="span5" type="text" name="subject" value="" required/><br>
 							<p class="form_info">mensaje</p>
-							<textarea name="message" id="message" class="span8" ></textarea>
+								<textarea name="message" id="message" class="span8" required></textarea>
 							<div class="clear"></div>
 							<input type="submit" class="btn  btn-large btn-primary marg-right5 hue" value="Enviar" />
 							<input type="reset"  class="btn   btn-large btn-primary" value="Limpiar" />
